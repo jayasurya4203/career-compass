@@ -1,0 +1,651 @@
+branch,cgpa,interest_domain,favorite_subject,technical_skills,projects_count,certifications_count,internship_experience,aptitude_score,logical_score,analytical_score,creativity_score,communication_score,coding_score,preferred_work_style,recommended_career
+CSE,9.0,Data,Statistics,"Excel,ML,Pandas,Python,SQL,Statistics",4,3,No,75,70,95,68,84,77,Management,Data Scientist
+IT,7.7,Security,OS,"Linux,Networking,OWASP,SIEM",2,3,No,58,65,62,59,61,71,Coding,Cybersecurity Analyst
+Civil,8.2,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",0,1,No,86,91,80,99,75,99,Management,Frontend Developer
+Civil,6.5,Design,UI Basics,"Figma,Prototyping,Research",4,3,No,57,58,67,83,55,54,Management,UI/UX Designer
+Civil,9.2,Business,Economics,"Agile,Documentation,Excel,SQL,Statistics",2,1,No,86,82,85,70,84,91,Analytical,Business Analyst
+CSE,9.1,Data,DBMS,"Linux,ML,Python,SQL,Statistics",1,0,No,78,88,91,69,68,99,Creative,Data Scientist
+ECE,7.4,Cloud,Cloud Computing,"CI/CD,Docker,Git,Linux",4,0,Yes,74,65,65,77,64,64,Coding,DevOps Engineer
+EEE,6.2,Data,ML,"ML,Pandas,Python,SQL,Statistics",0,3,No,66,60,74,61,80,68,Coding,Data Scientist
+CSE,9.0,Data,DBMS,"Excel,Pandas,SQL,Tableau",4,1,No,76,71,92,85,91,90,Analytical,Data Analyst
+CSE,6.5,Cloud,Computer Networks,"AWS,Docker,Networking,Terraform",1,0,No,81,87,83,90,85,76,Management,Cloud Engineer
+Mechanical,8.9,Web,Computer Networks,"CSS,Communication,Git,HTML,JavaScript,Node,React,SQL",4,1,No,64,68,57,57,75,76,Analytical,Full Stack Developer
+Civil,7.1,AI,Python,"Deep Learning,Docker,ML,Python,SQL",5,1,No,88,93,92,76,86,99,Analytical,Machine Learning Engineer
+Civil,7.0,Web,JavaScript,"Excel,Git,Linux,Python,REST,SQL",5,1,No,62,56,67,58,67,56,Coding,Backend Developer
+ECE,8.2,Cloud,Cloud Computing,"CI/CD,Docker,Git,Kubernetes,Linux",4,3,No,67,74,64,80,67,73,Coding,DevOps Engineer
+EEE,7.6,Web,Web Technology,"Docker,Git,Linux,Python,REST,SQL",4,0,Yes,64,68,57,49,70,56,Coding,Backend Developer
+ECE,9.5,Web,JavaScript,"Git,Linux,Python,REST,SQL,Statistics",2,0,Yes,93,90,99,99,99,99,Coding,Backend Developer
+Mechanical,8.1,Data,DBMS,"ML,Pandas,Python,SQL,Statistics",0,2,No,81,79,82,87,86,88,Management,Data Scientist
+Civil,8.4,Data,Statistics,"Docker,ML,Pandas,Python,SQL,Statistics",2,2,No,93,98,99,80,84,99,Analytical,Data Scientist
+Civil,7.6,Mobile,Kotlin,"Android,Git,Kotlin,REST",0,2,No,85,94,94,73,93,87,Coding,Android Developer
+IT,7.9,AI,Python,"Deep Learning,Docker,ML,Python,SQL",3,0,No,56,47,58,59,42,48,Creative,Machine Learning Engineer
+EEE,8.7,Web,Computer Networks,"CSS,Communication,Git,HTML,JavaScript,Node,React,SQL",3,3,No,63,57,75,80,68,71,Analytical,Full Stack Developer
+EEE,8.8,Cloud,Cloud Computing,"CI/CD,Docker,Excel,Git,Kubernetes,Linux",2,0,Yes,65,74,60,80,72,79,Analytical,DevOps Engineer
+EEE,8.3,Data,Data Mining,"Excel,Pandas,Python,SQL,Tableau",0,0,No,68,66,84,86,68,76,Creative,Data Analyst
+CSE,8.0,Cloud,OS,"AWS,Docker,Linux,Networking,Terraform",5,0,No,88,94,99,87,87,94,Creative,Cloud Engineer
+Civil,6.6,Web,Computer Networks,"API testing,Git,SQL,Selenium,Testing",0,1,Yes,90,81,85,99,83,90,Coding,QA/Test Engineer
+CSE,9.5,Data,ML,"Excel,Pandas,Python,SQL,Tableau",1,3,Yes,61,55,59,63,57,85,Coding,Data Analyst
+Mechanical,7.0,Web,JavaScript,"Git,Linux,Python,REST,SQL",2,1,No,85,93,76,82,82,93,Coding,Backend Developer
+Civil,8.3,AI,ML,"Deep Learning,Docker,Git,ML,Python,SQL",2,3,No,76,84,83,77,83,84,Analytical,Machine Learning Engineer
+IT,9.1,Design,HCI,"Figma,Prototyping,Research,Wireframes",5,3,No,88,80,95,99,74,89,Analytical,UI/UX Designer
+IT,9.3,Business,Economics,"Agile,Documentation,SQL",0,2,No,66,62,54,73,82,66,Creative,Business Analyst
+Civil,9.4,Web,Web Technology,"Git,Linux,Python,REST,SQL",3,0,No,83,75,73,70,78,92,Analytical,Backend Developer
+ECE,8.5,Design,UI Basics,"Figma,Prototyping,Research,Wireframes",3,2,No,81,79,74,82,93,71,Analytical,UI/UX Designer
+Mechanical,9.0,Data,DBMS,"ML,Pandas,SQL,Statistics",5,3,No,88,79,99,71,78,87,Analytical,Data Scientist
+IT,8.1,Mobile,Mobile Computing,"Android,Git,Kotlin,REST",5,3,Yes,90,92,86,88,87,99,Analytical,Android Developer
+Mechanical,7.7,Web,Web Technology,"Git,Linux,Python,REST,SQL",5,2,No,56,54,46,52,71,67,Creative,Backend Developer
+ECE,7.6,AI,Python,"Deep Learning,Docker,Excel,ML,Python,SQL",0,3,Yes,82,90,78,99,75,76,Analytical,Machine Learning Engineer
+Civil,8.8,Cloud,Cloud Computing,"AWS,Docker,Networking,Terraform",2,3,No,67,70,61,69,61,75,Coding,Cloud Engineer
+Mechanical,7.4,AI,Deep Learning,"Deep Learning,Docker,ML,Python,SQL",4,0,No,83,79,76,79,70,89,Coding,Machine Learning Engineer
+EEE,7.5,AI,Python,"Deep Learning,Docker,Linux,ML,Python",2,1,No,69,65,77,74,78,77,Analytical,Machine Learning Engineer
+EEE,9.0,Mobile,Kotlin,"Android,Docker,Git,Kotlin,REST",2,0,Yes,62,52,52,51,62,72,Analytical,Android Developer
+EEE,6.7,Design,UI Basics,"Figma,Prototyping,Research,Wireframes",4,2,No,81,75,89,88,69,74,Creative,UI/UX Designer
+Civil,9.2,Mobile,Mobile Computing,"Android,Kotlin,REST",0,3,Yes,72,77,62,75,57,80,Analytical,Android Developer
+Civil,6.0,Data,ML,"ML,Pandas,Python,SQL,Statistics",1,3,No,79,76,92,95,76,82,Management,Data Scientist
+ECE,6.2,Web,Web Technology,"CSS,Git,JavaScript,Node,React,SQL",2,0,No,87,81,89,99,80,99,Creative,Full Stack Developer
+Mechanical,9.4,Web,JavaScript,"Git,Linux,Python,REST,SQL",3,0,No,55,47,66,46,53,72,Analytical,Backend Developer
+IT,7.0,Web,JavaScript,"Git,Linux,Python,REST,SQL",1,1,No,59,61,51,42,46,72,Analytical,Backend Developer
+EEE,6.8,Mobile,Kotlin,"Android,Git,Kotlin,REST",2,0,Yes,68,61,69,69,77,77,Management,Android Developer
+Mechanical,8.8,Web,Web Technology,"Git,Linux,Python,REST,SQL",5,1,Yes,95,86,99,79,89,99,Management,Backend Developer
+ECE,8.9,Business,Management,"Agile,Documentation,Excel,SQL",1,2,Yes,89,83,99,96,88,81,Creative,Business Analyst
+IT,6.7,Cloud,OS,"AWS,Networking,Terraform",0,0,No,84,86,84,96,78,89,Analytical,Cloud Engineer
+CSE,9.2,Web,JavaScript,"API testing,Excel,SQL,Selenium,Testing",2,1,No,73,79,79,58,75,65,Creative,QA/Test Engineer
+IT,8.8,AI,Python,"Deep Learning,Docker,ML,SQL,Statistics",3,3,No,95,88,95,99,90,85,Management,Machine Learning Engineer
+EEE,8.1,Cloud,OS,"AWS,Docker,Networking,Statistics",5,3,No,62,58,71,80,64,56,Coding,Cloud Engineer
+ECE,7.2,Cloud,Computer Networks,"AWS,Docker,Networking,Terraform",0,0,No,77,82,79,90,78,83,Creative,Cloud Engineer
+Civil,7.3,Web,JavaScript,"CSS,Git,HTML,Node,React,SQL",5,3,No,78,80,80,64,81,72,Coding,Full Stack Developer
+Mechanical,7.2,Business,DBMS,"Agile,Documentation,Excel,Linux,SQL",3,3,No,82,84,83,87,99,87,Coding,Business Analyst
+CSE,7.2,Mobile,Kotlin,"Android,Git,Kotlin,REST",0,2,No,75,66,75,93,83,65,Coding,Android Developer
+IT,8.8,Cloud,Cloud Computing,"AWS,Docker,Git,Networking,Terraform",4,1,No,81,91,93,87,73,92,Management,Cloud Engineer
+ECE,8.5,Data,Data Mining,"ML,Pandas,Python,SQL,Statistics",2,3,No,68,58,84,69,74,75,Management,Data Scientist
+Civil,8.5,Design,HCI,"Prototyping,Research,Teamwork,Wireframes",3,0,Yes,80,90,84,73,68,78,Analytical,UI/UX Designer
+EEE,8.4,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React",5,1,Yes,73,72,77,91,60,89,Analytical,Frontend Developer
+ECE,8.3,AI,Python,"Deep Learning,Docker,ML,Python,SQL,Statistics",4,0,Yes,65,57,69,77,77,70,Analytical,Machine Learning Engineer
+Mechanical,9.0,Web,JavaScript,"CSS,Git,HTML,JavaScript,Node,React,SQL",0,3,Yes,66,56,58,78,61,85,Analytical,Full Stack Developer
+ECE,7.7,Cloud,OS,"CI/CD,Git,Kubernetes,Linux",1,2,No,95,98,99,99,83,99,Coding,DevOps Engineer
+ECE,6.7,Security,OS,"Linux,Networking,OWASP,SIEM",2,3,No,56,47,56,71,42,54,Analytical,Cybersecurity Analyst
+IT,9.1,AI,Deep Learning,"Deep Learning,Docker,ML,Python,SQL",5,0,Yes,57,57,45,47,63,67,Analytical,Machine Learning Engineer
+IT,9.4,Web,JavaScript,"Git,Linux,Python,REST,SQL,Statistics",5,0,No,57,58,52,67,56,63,Analytical,Backend Developer
+ECE,6.8,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",5,2,Yes,58,64,64,75,59,77,Analytical,Frontend Developer
+ECE,6.3,Business,DBMS,"Agile,Documentation,Excel,SQL",1,3,Yes,70,60,64,62,71,69,Creative,Business Analyst
+IT,8.2,Data,ML,"Linux,ML,Pandas,Python,Statistics",1,1,No,71,69,79,78,78,94,Coding,Data Scientist
+Mechanical,6.0,Design,HCI,"Figma,Prototyping,Wireframes",4,2,No,62,64,66,72,75,69,Coding,UI/UX Designer
+Mechanical,8.4,Data,Statistics,"ML,Pandas,Python,SQL,Statistics",1,1,No,63,57,60,72,50,84,Management,Data Scientist
+EEE,6.6,Security,OS,"Linux,Networking,OWASP,SIEM,Statistics",3,3,Yes,59,54,62,48,55,64,Management,Cybersecurity Analyst
+CSE,9.5,Cloud,Cloud Computing,"AWS,Docker,Networking,Terraform",4,1,No,95,88,99,90,88,86,Analytical,Cloud Engineer
+ECE,8.6,Web,JavaScript,"API testing,SQL,Selenium",0,1,No,58,53,53,51,44,63,Coding,QA/Test Engineer
+Civil,6.5,Security,OS,"Linux,OWASP,SIEM",2,1,No,64,56,72,82,78,59,Coding,Cybersecurity Analyst
+ECE,7.7,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL",5,0,No,83,92,84,95,82,79,Coding,Full Stack Developer
+Mechanical,8.7,Security,OS,"Linux,Networking,OWASP,SIEM",1,2,No,89,83,87,99,95,82,Coding,Cybersecurity Analyst
+Civil,9.0,Web,Web Technology,"Git,Linux,Python,REST,SQL,Statistics",4,2,Yes,66,72,62,51,55,79,Management,Backend Developer
+Mechanical,6.5,Web,Web Technology,"CSS,Git,HTML,React",3,2,No,65,58,72,63,74,81,Analytical,Frontend Developer
+IT,7.7,Cloud,OS,"CI/CD,Docker,Git,Linux",3,0,No,92,99,95,99,90,99,Coding,DevOps Engineer
+Civil,6.1,Cloud,Cloud Computing,"AWS,Docker,Networking,Terraform",3,1,No,59,64,48,50,59,69,Creative,Cloud Engineer
+CSE,6.7,Design,UI Basics,"Figma,Prototyping,Research,Wireframes",4,0,No,85,90,92,75,98,99,Creative,UI/UX Designer
+IT,7.5,Data,DBMS,"ML,Pandas,SQL,Statistics",0,0,No,88,94,99,93,87,99,Creative,Data Scientist
+IT,7.8,Data,Statistics,"ML,Pandas,Python,SQL,Statistics",0,1,No,79,80,83,76,79,89,Creative,Data Scientist
+EEE,7.3,Data,DBMS,"ML,Pandas,Python,SQL,Statistics",0,0,Yes,67,58,85,77,77,62,Creative,Data Scientist
+IT,8.6,Data,ML,"ML,Pandas,Python,SQL,Statistics,Teamwork",1,1,No,60,59,60,77,64,79,Coding,Data Scientist
+IT,8.1,Mobile,Mobile Computing,"Android,Git,Kotlin,REST",3,2,No,67,66,62,76,57,76,Analytical,Android Developer
+IT,6.5,Web,Web Technology,"API testing,SQL,Selenium,Testing",5,0,No,84,77,87,68,92,79,Coding,QA/Test Engineer
+IT,8.0,Data,Data Mining,"Excel,Pandas,Python,SQL,Tableau",0,0,No,87,87,99,86,94,99,Coding,Data Analyst
+EEE,7.4,Security,Network Security,"Linux,Networking,OWASP,SIEM",5,2,No,94,99,99,99,98,99,Creative,Cybersecurity Analyst
+Mechanical,7.8,AI,ML,"Deep Learning,Docker,ML,Python,SQL",3,2,Yes,93,84,82,81,98,99,Creative,Machine Learning Engineer
+IT,6.5,Security,OS,"Excel,Linux,Networking,OWASP,SIEM",5,2,No,60,59,49,48,58,55,Analytical,Cybersecurity Analyst
+EEE,8.0,Security,Network Security,"Linux,Networking,OWASP,SIEM",3,3,No,63,73,66,80,54,68,Management,Cybersecurity Analyst
+ECE,6.7,Data,DBMS,"ML,Pandas,Python,SQL,Statistics,Teamwork",2,0,No,61,68,65,65,71,71,Management,Data Scientist
+CSE,9.4,Cloud,OS,"AWS,Docker,Networking,Terraform",0,2,No,60,51,68,70,68,56,Analytical,Cloud Engineer
+EEE,6.1,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL",4,1,Yes,59,65,56,66,66,72,Management,Full Stack Developer
+IT,8.2,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",4,2,No,93,91,99,85,88,99,Coding,Data Analyst
+ECE,7.7,Design,UI Basics,"Excel,Figma,Prototyping,Research,Wireframes",1,0,No,85,80,90,84,86,86,Management,UI/UX Designer
+Civil,6.8,Security,OS,"Linux,Networking,OWASP,SIEM",5,3,Yes,92,96,99,99,87,99,Creative,Cybersecurity Analyst
+Civil,9.2,Cloud,Computer Networks,"CI/CD,Docker,Git,Kubernetes,Linux",0,1,Yes,74,78,62,81,78,90,Analytical,DevOps Engineer
+Mechanical,7.7,Design,HCI,"Figma,Prototyping,Research,Wireframes",3,3,Yes,85,82,76,98,72,87,Analytical,UI/UX Designer
+ECE,6.6,Cloud,Cloud Computing,"CI/CD,Docker,Git,Kubernetes,Linux",5,1,No,70,74,61,54,65,78,Analytical,DevOps Engineer
+ECE,6.1,Mobile,Kotlin,"Android,Git,Kotlin,REST",5,1,Yes,69,66,57,58,63,66,Management,Android Developer
+Mechanical,9.5,Design,Graphics,"Figma,Prototyping,Research,Wireframes",4,2,No,81,78,93,99,92,94,Coding,UI/UX Designer
+Civil,6.6,Mobile,Mobile Computing,"Android,Git,Kotlin,REST",1,1,No,67,61,78,49,63,80,Creative,Android Developer
+CSE,8.4,Web,Web Technology,"Git,Linux,Python,REST,SQL",2,0,No,89,85,97,93,75,91,Coding,Backend Developer
+Civil,7.3,Web,Web Technology,"API testing,Excel,SQL,Selenium,Testing",3,0,No,85,83,83,85,86,80,Creative,QA/Test Engineer
+Mechanical,6.9,Mobile,Mobile Computing,"Android,Git,Kotlin,REST",2,1,No,55,62,50,56,41,75,Coding,Android Developer
+EEE,7.2,Business,DBMS,"Agile,Documentation,Excel,SQL",1,3,No,66,68,73,75,71,68,Analytical,Business Analyst
+IT,7.4,Web,JavaScript,"CSS,Git,HTML,JavaScript,React,Teamwork",1,3,Yes,79,75,75,97,73,82,Management,Frontend Developer
+ECE,8.1,AI,ML,"Deep Learning,Docker,ML,Python,SQL,Statistics",3,1,No,61,65,73,69,47,80,Creative,Machine Learning Engineer
+CSE,7.1,Cloud,Cloud Computing,"AWS,Docker,Networking,Teamwork,Terraform",3,1,Yes,85,79,91,98,71,99,Management,Cloud Engineer
+IT,9.3,Business,DBMS,"Agile,Documentation,Excel,SQL",5,3,Yes,60,51,49,44,64,60,Creative,Business Analyst
+ECE,6.8,Design,Graphics,"Figma,Prototyping,Research,Wireframes",1,3,No,68,72,69,82,64,85,Management,UI/UX Designer
+ECE,9.4,Business,DBMS,"Documentation,Excel,SQL",2,1,No,93,99,91,76,99,99,Analytical,Business Analyst
+EEE,6.7,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",3,3,Yes,61,57,50,76,69,61,Creative,Frontend Developer
+Civil,9.1,Cloud,Cloud Computing,"AWS,Docker,Networking,Terraform",5,0,Yes,93,86,85,99,99,99,Analytical,Cloud Engineer
+Mechanical,6.0,AI,Python,"Deep Learning,Docker,ML,Python,SQL",4,0,Yes,77,86,81,65,71,92,Coding,Machine Learning Engineer
+EEE,9.2,Cloud,Cloud Computing,"CI/CD,Docker,Git,Kubernetes,Linux",3,2,No,78,73,70,88,91,87,Coding,DevOps Engineer
+Mechanical,7.5,Data,DBMS,"Excel,Pandas,Python,SQL,Tableau",2,0,No,71,63,70,66,74,68,Creative,Data Analyst
+CSE,9.0,AI,Python,"Deep Learning,Docker,Linux,ML,Python,SQL",4,1,Yes,90,99,86,99,99,97,Management,Machine Learning Engineer
+CSE,7.8,Mobile,Java,"Android,Git,Kotlin,REST",0,1,No,76,73,71,71,78,67,Analytical,Android Developer
+Mechanical,7.0,Design,UI Basics,"Excel,Figma,Prototyping,Research,Wireframes",4,3,No,78,79,83,99,78,76,Coding,UI/UX Designer
+Civil,7.1,Web,Web Technology,"Git,Linux,REST,SQL",2,1,No,71,74,68,73,59,61,Management,Backend Developer
+EEE,6.5,Data,ML,"Excel,Linux,Pandas,Python,SQL,Tableau",1,2,No,84,78,86,99,82,99,Management,Data Analyst
+Civil,6.6,Design,HCI,"Figma,Prototyping,Research,Wireframes",5,0,No,76,66,72,91,72,83,Coding,UI/UX Designer
+ECE,7.3,AI,ML,"Deep Learning,Docker,ML,Python,SQL",2,3,No,84,90,73,68,89,84,Creative,Machine Learning Engineer
+ECE,8.5,Web,JavaScript,"API testing,Docker,SQL,Selenium",3,1,No,82,72,83,90,95,86,Coding,QA/Test Engineer
+ECE,9.2,Web,JavaScript,"Git,Linux,Python,REST,SQL",2,0,No,59,66,51,55,71,70,Management,Backend Developer
+Mechanical,8.3,AI,ML,"Deep Learning,Docker,ML,Python,SQL",0,0,No,69,62,71,69,62,73,Creative,Machine Learning Engineer
+IT,7.1,Design,HCI,"Linux,Prototyping,Research,Wireframes",2,2,No,83,88,94,70,75,75,Analytical,UI/UX Designer
+CSE,6.9,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",5,1,No,56,50,65,44,50,70,Creative,Data Analyst
+ECE,7.2,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",2,0,Yes,61,51,81,72,46,61,Analytical,Data Analyst
+ECE,8.8,Cloud,OS,"CI/CD,Docker,Git,Kubernetes,Linux",0,3,Yes,79,83,81,81,91,81,Management,DevOps Engineer
+ECE,8.3,Cloud,Computer Networks,"Docker,Git,Kubernetes,Linux",0,1,No,56,59,51,57,55,61,Management,DevOps Engineer
+CSE,6.1,Cloud,OS,"CI/CD,Docker,Git,Kubernetes,Linux",5,1,No,82,75,74,83,89,84,Management,DevOps Engineer
+Mechanical,6.7,Web,JavaScript,"API testing,Selenium,Testing",0,2,No,70,72,80,80,57,85,Coding,QA/Test Engineer
+EEE,7.4,Security,OS,"Linux,Networking,OWASP,SIEM",5,3,No,74,78,72,68,81,88,Creative,Cybersecurity Analyst
+ECE,8.4,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL",2,3,No,65,75,59,55,77,63,Creative,Full Stack Developer
+ECE,6.2,Mobile,Kotlin,"Android,Git,Kotlin,REST,Statistics",3,3,Yes,88,84,94,99,95,99,Creative,Android Developer
+EEE,8.9,Business,Economics,"Agile,Documentation,Excel,SQL,Statistics",5,0,Yes,84,82,83,78,88,74,Analytical,Business Analyst
+Civil,9.2,Web,Web Technology,"API testing,SQL,Testing",3,3,No,75,77,74,57,86,73,Analytical,QA/Test Engineer
+Mechanical,6.9,Data,DBMS,"Linux,ML,Pandas,Python,SQL,Statistics",2,2,No,55,49,76,70,65,60,Creative,Data Scientist
+ECE,6.0,AI,Deep Learning,"Deep Learning,Docker,Python,SQL",2,0,No,86,92,92,99,82,78,Coding,Machine Learning Engineer
+Civil,9.1,AI,Deep Learning,"Deep Learning,Docker,ML,Python,SQL,Teamwork",2,1,Yes,57,60,54,57,56,70,Coding,Machine Learning Engineer
+Civil,9.1,Data,DBMS,"Excel,Pandas,Python,SQL,Tableau",2,1,Yes,91,81,99,98,99,99,Coding,Data Analyst
+Mechanical,6.3,Cloud,Computer Networks,"AWS,Docker,Networking,Terraform",5,0,No,94,99,83,97,96,99,Creative,Cloud Engineer
+EEE,7.1,AI,Deep Learning,"Deep Learning,Docker,Python,SQL",4,3,No,70,62,60,81,69,85,Management,Machine Learning Engineer
+EEE,7.5,Web,Web Technology,"API testing,Excel,SQL,Selenium,Testing",3,3,No,56,47,58,53,47,55,Management,QA/Test Engineer
+Mechanical,7.9,Security,OS,"Communication,Linux,Networking,OWASP,SIEM",1,0,No,81,75,82,82,80,94,Coding,Cybersecurity Analyst
+Civil,6.4,Mobile,Kotlin,"Android,Git,Kotlin,REST",1,3,No,79,76,68,82,68,95,Analytical,Android Developer
+EEE,9.0,Cloud,Computer Networks,"Docker,Networking,Terraform",3,2,Yes,82,90,93,79,74,82,Management,Cloud Engineer
+Mechanical,6.9,Web,Web Technology,"API testing,SQL,Selenium,Testing",4,0,Yes,83,90,85,72,71,98,Creative,QA/Test Engineer
+EEE,8.6,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",0,2,Yes,61,70,76,57,72,65,Coding,Data Analyst
+ECE,8.2,Cloud,OS,"AWS,Docker,Networking,Terraform",0,3,No,88,97,77,88,86,99,Coding,Cloud Engineer
+ECE,8.0,Mobile,Kotlin,"Android,Git,Kotlin,REST,Statistics",0,2,No,79,73,72,91,78,82,Management,Android Developer
+EEE,8.1,Data,DBMS,"ML,Pandas,Python,SQL,Statistics,Teamwork",1,0,No,60,55,70,49,59,79,Creative,Data Scientist
+EEE,6.2,Data,Data Mining,"ML,Pandas,Python,SQL,Statistics",3,3,Yes,56,64,58,61,56,72,Management,Data Scientist
+Civil,8.9,Cloud,OS,"CI/CD,Git,Kubernetes,Linux",2,2,No,70,66,71,65,59,63,Analytical,DevOps Engineer
+ECE,9.3,Data,Statistics,"Linux,ML,Pandas,Python,SQL,Statistics",5,2,Yes,77,76,95,95,66,93,Analytical,Data Scientist
+IT,7.1,Design,UI Basics,"Figma,Prototyping,Research,Wireframes",3,1,Yes,79,83,78,81,72,97,Creative,UI/UX Designer
+Civil,7.1,Cloud,OS,"Docker,Git,Kubernetes,Linux",5,1,No,63,55,57,53,50,66,Creative,DevOps Engineer
+CSE,6.5,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",4,3,Yes,56,55,57,60,58,48,Coding,Data Analyst
+EEE,6.2,Business,DBMS,"Agile,Documentation,Excel",4,0,No,79,88,79,67,91,93,Management,Business Analyst
+Mechanical,6.7,Security,OS,"Linux,Networking,OWASP,SIEM",1,0,No,82,85,80,99,69,75,Management,Cybersecurity Analyst
+EEE,8.1,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Linux",5,3,Yes,88,88,93,97,84,91,Creative,Frontend Developer
+ECE,7.4,Business,Management,"Agile,Documentation,Excel,Linux",0,3,No,76,66,87,83,93,72,Management,Business Analyst
+Civil,8.7,Data,DBMS,"Excel,Pandas,Python,SQL,Tableau",5,1,No,73,67,98,59,84,97,Management,Data Analyst
+Mechanical,9.5,Data,DBMS,"Excel,Pandas,Python,SQL,Tableau",2,3,No,63,65,87,71,59,87,Management,Data Analyst
+EEE,8.6,Data,Statistics,"Docker,ML,Pandas,Python,SQL",5,3,No,87,92,93,79,98,99,Analytical,Data Scientist
+ECE,8.5,Data,Statistics,"Excel,Python,SQL,Tableau",0,1,No,59,59,56,55,60,70,Management,Data Analyst
+EEE,6.5,Data,ML,"Communication,ML,Pandas,Python,SQL,Statistics",0,3,No,78,83,75,81,89,97,Coding,Data Scientist
+EEE,6.3,Cloud,Cloud Computing,"AWS,Docker,Networking,Terraform",5,2,No,67,76,56,50,71,59,Creative,Cloud Engineer
+Civil,6.8,Web,JavaScript,"Git,Linux,Python,REST,SQL,Statistics",2,3,No,79,73,88,70,79,99,Creative,Backend Developer
+IT,8.8,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React",2,3,No,90,88,92,94,98,99,Management,Frontend Developer
+Mechanical,6.8,Design,HCI,"Figma,Prototyping,Research,Wireframes",2,1,No,55,54,43,80,66,69,Analytical,UI/UX Designer
+EEE,7.9,Cloud,Computer Networks,"AWS,Docker,Networking,Terraform",0,3,No,87,78,83,95,99,94,Coding,Cloud Engineer
+IT,7.9,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",3,0,Yes,72,68,96,88,83,81,Creative,Data Analyst
+Mechanical,7.1,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",2,3,No,80,82,90,91,82,74,Analytical,Frontend Developer
+ECE,8.7,Security,Cryptography,"Linux,Networking,OWASP,SIEM",4,0,No,84,79,92,94,71,97,Creative,Cybersecurity Analyst
+Mechanical,6.3,Mobile,Mobile Computing,"Android,Communication,Git,Kotlin",1,0,No,93,99,95,96,82,91,Coding,Android Developer
+ECE,8.8,Mobile,Mobile Computing,"Android,Git,Kotlin,REST",5,1,Yes,93,94,84,99,86,99,Analytical,Android Developer
+EEE,9.4,Design,UI Basics,"Figma,Prototyping,Research,Wireframes",0,0,No,79,86,85,74,74,80,Coding,UI/UX Designer
+Mechanical,9.5,Data,Data Mining,"ML,Pandas,Python,SQL,Statistics",2,2,Yes,85,95,84,88,78,99,Coding,Data Scientist
+Civil,6.2,Web,Computer Networks,"CSS,Communication,Git,HTML,JavaScript,React",1,0,No,72,70,74,85,62,73,Coding,Frontend Developer
+IT,6.5,Data,ML,"Linux,ML,Pandas,Python,SQL,Statistics",5,0,No,55,61,73,61,67,71,Coding,Data Scientist
+CSE,6.5,Web,Web Technology,"CSS,Excel,Git,HTML,JavaScript,React",0,3,No,76,78,81,98,74,67,Analytical,Frontend Developer
+EEE,6.4,Cloud,Computer Networks,"Docker,Git,Kubernetes,Linux",0,0,Yes,59,53,62,42,49,61,Coding,DevOps Engineer
+Civil,9.3,Data,ML,"ML,Pandas,Python,SQL,Statistics",4,0,No,93,93,99,89,98,99,Creative,Data Scientist
+IT,8.9,Web,JavaScript,"CSS,Git,HTML,JavaScript,React,Statistics",1,1,Yes,67,68,67,79,60,84,Creative,Frontend Developer
+ECE,9.1,Security,Network Security,"Linux,Networking,OWASP,SIEM,Statistics",4,3,No,59,64,70,61,69,64,Analytical,Cybersecurity Analyst
+Civil,7.0,Data,Statistics,"ML,Pandas,Python,SQL,Statistics,Teamwork",4,1,Yes,84,80,83,74,72,76,Creative,Data Scientist
+EEE,8.6,Web,JavaScript,"CSS,Excel,Git,HTML,JavaScript,Node,React,SQL",3,2,No,60,67,71,69,47,63,Analytical,Full Stack Developer
+Mechanical,9.5,Web,JavaScript,"Git,Linux,Python,REST,SQL",3,2,No,90,86,99,99,87,94,Coding,Backend Developer
+IT,6.2,Business,Economics,"Agile,Documentation,Excel,SQL",4,3,No,60,65,63,46,60,66,Management,Business Analyst
+Mechanical,7.8,Web,JavaScript,"CSS,Docker,Git,HTML,JavaScript,React",2,3,No,74,78,76,81,88,88,Creative,Frontend Developer
+ECE,8.0,Business,Economics,"Agile,Documentation,Excel,SQL",1,0,No,57,59,67,70,48,52,Analytical,Business Analyst
+CSE,9.0,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",1,3,Yes,91,99,86,90,95,83,Management,Frontend Developer
+IT,6.3,Data,Statistics,"ML,Pandas,Python,SQL,Statistics",1,0,No,83,82,93,85,81,83,Coding,Data Scientist
+Mechanical,8.4,AI,Python,"Deep Learning,Docker,Excel,ML,Python",5,1,No,77,69,66,73,86,82,Analytical,Machine Learning Engineer
+Mechanical,8.4,Security,Network Security,"Docker,Linux,Networking,OWASP,SIEM",3,0,No,82,74,79,89,71,76,Coding,Cybersecurity Analyst
+ECE,9.2,Web,JavaScript,"CSS,Git,HTML,JavaScript,Node,React,SQL",4,0,No,59,58,57,47,61,70,Management,Full Stack Developer
+Civil,7.9,Design,Graphics,"Figma,Prototyping,Research,Wireframes",1,1,No,62,67,70,87,66,66,Coding,UI/UX Designer
+EEE,6.5,Web,Web Technology,"API testing,SQL,Selenium,Testing",0,0,No,75,66,75,67,73,66,Management,QA/Test Engineer
+ECE,6.3,Web,JavaScript,"API testing,Excel,SQL,Selenium,Testing",2,1,Yes,88,85,99,99,78,91,Creative,QA/Test Engineer
+EEE,6.8,Business,Management,"Agile,Documentation,Excel,SQL",3,1,No,85,87,96,88,99,98,Management,Business Analyst
+Mechanical,7.3,Web,Web Technology,"Communication,Git,Linux,Python,REST,SQL",3,1,No,63,58,68,68,64,69,Coding,Backend Developer
+IT,6.5,Web,Computer Networks,"API testing,SQL,Selenium,Testing",2,2,No,66,58,77,79,51,59,Coding,QA/Test Engineer
+IT,6.1,Cloud,OS,"AWS,Docker,Teamwork,Terraform",5,2,No,89,89,91,72,75,89,Creative,Cloud Engineer
+Civil,6.3,Data,Data Mining,"ML,Python,SQL,Statistics",5,2,No,55,48,61,50,47,71,Creative,Data Scientist
+EEE,7.8,Web,Web Technology,"CSS,Git,HTML,JavaScript,Node,React,SQL",2,1,No,75,67,85,71,71,95,Coding,Full Stack Developer
+Civil,9.4,Web,JavaScript,"CSS,Git,JavaScript,Node,React,SQL",4,0,No,73,79,75,89,74,78,Analytical,Full Stack Developer
+Civil,7.9,Web,Computer Networks,"CSS,Excel,Git,HTML,JavaScript,React",2,2,Yes,67,74,64,68,63,62,Coding,Frontend Developer
+EEE,9.0,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",2,2,No,93,90,99,98,95,83,Analytical,Frontend Developer
+IT,6.6,Business,Management,"Agile,Documentation,Excel,SQL,Teamwork",0,2,No,56,50,66,41,60,58,Creative,Business Analyst
+ECE,7.7,Web,Computer Networks,"CSS,Docker,Git,HTML,JavaScript,React",2,3,No,74,67,70,80,62,87,Analytical,Frontend Developer
+EEE,9.3,Cloud,Cloud Computing,"CI/CD,Docker,Git,Kubernetes,Linux",1,0,No,73,81,76,73,88,87,Analytical,DevOps Engineer
+IT,8.8,Business,Management,"Agile,Documentation,Excel,Linux,SQL",5,2,No,92,91,97,83,91,97,Coding,Business Analyst
+Civil,8.6,Mobile,Mobile Computing,"Android,Git,Kotlin,REST",2,1,Yes,90,91,90,93,88,99,Management,Android Developer
+Mechanical,7.8,Design,UI Basics,"Excel,Figma,Prototyping,Research,Wireframes",2,1,Yes,65,67,55,79,74,67,Coding,UI/UX Designer
+Mechanical,7.0,Web,JavaScript,"CSS,Git,HTML,JavaScript,Node,React,SQL",5,1,No,87,84,82,76,78,99,Analytical,Full Stack Developer
+Mechanical,9.1,Web,JavaScript,"CSS,Git,HTML,JavaScript,React,Teamwork",3,2,No,65,73,67,66,69,72,Creative,Frontend Developer
+EEE,7.1,Design,HCI,"Figma,Prototyping,Research,Wireframes",1,1,No,56,60,45,72,68,75,Coding,UI/UX Designer
+ECE,7.2,Cloud,Computer Networks,"CI/CD,Docker,Git,Kubernetes,Linux",0,1,No,81,84,83,81,71,96,Management,DevOps Engineer
+Mechanical,9.1,Mobile,Kotlin,"Android,Git,Kotlin,REST,Teamwork",0,3,Yes,67,59,56,58,82,63,Analytical,Android Developer
+Mechanical,6.5,Security,OS,"Linux,Networking,OWASP,SIEM",5,3,No,69,70,64,60,81,87,Coding,Cybersecurity Analyst
+EEE,6.5,AI,Python,"Communication,Deep Learning,Docker,ML,Python,SQL",1,2,No,64,65,53,64,55,78,Creative,Machine Learning Engineer
+IT,8.6,AI,Python,"Deep Learning,Docker,ML,Python,SQL,Teamwork",4,1,No,66,74,61,64,57,59,Analytical,Machine Learning Engineer
+EEE,6.9,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",0,2,No,59,49,71,51,68,49,Analytical,Frontend Developer
+Mechanical,6.2,Cloud,OS,"CI/CD,Docker,Git,Kubernetes,Linux",5,1,No,65,61,77,81,50,78,Creative,DevOps Engineer
+Mechanical,9.4,Data,DBMS,"Excel,Pandas,Python,SQL,Statistics,Tableau",0,2,No,63,68,73,54,70,69,Analytical,Data Analyst
+CSE,6.6,Business,Management,"Agile,Documentation,Excel,Git,SQL",0,2,Yes,72,79,67,60,65,64,Coding,Business Analyst
+ECE,7.8,Data,Data Mining,"ML,Pandas,Python,SQL,Statistics",0,3,No,87,85,96,72,87,99,Analytical,Data Scientist
+Civil,6.7,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",3,3,No,74,79,82,79,75,93,Management,Data Analyst
+EEE,8.2,Design,HCI,"Figma,Prototyping,Research,Wireframes",2,3,No,59,69,49,61,54,56,Coding,UI/UX Designer
+EEE,9.3,Mobile,Java,"Android,Git,Kotlin",1,0,Yes,82,84,92,65,72,99,Coding,Android Developer
+Mechanical,8.2,AI,Python,"Deep Learning,Docker,ML,Python,SQL",3,2,No,58,59,53,69,53,65,Management,Machine Learning Engineer
+IT,7.0,Web,Computer Networks,"Git,Linux,Python,REST,SQL",3,2,No,87,97,94,96,75,99,Creative,Backend Developer
+CSE,9.1,Cloud,Cloud Computing,"AWS,Docker,Terraform",5,3,No,64,70,74,67,77,66,Creative,Cloud Engineer
+Mechanical,8.1,Mobile,Mobile Computing,"Android,Docker,Git,Kotlin,REST",1,1,Yes,55,57,59,60,55,57,Management,Android Developer
+EEE,7.6,AI,ML,"Deep Learning,Docker,ML,Python,SQL",0,0,No,81,90,70,98,83,71,Creative,Machine Learning Engineer
+IT,7.8,Cloud,Computer Networks,"CI/CD,Docker,Git,Kubernetes,Linux",1,0,No,64,67,68,60,75,60,Creative,DevOps Engineer
+ECE,8.4,Security,OS,"Linux,Networking,OWASP,SIEM",0,0,Yes,83,89,91,88,70,89,Management,Cybersecurity Analyst
+ECE,6.8,Mobile,Java,"Android,Git,Kotlin,REST",5,0,No,89,86,97,99,76,99,Coding,Android Developer
+ECE,9.2,Data,Data Mining,"Excel,Git,Pandas,Python,SQL,Tableau",1,1,Yes,71,73,86,79,65,68,Analytical,Data Analyst
+Civil,8.4,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",2,2,Yes,68,77,70,57,76,93,Management,Data Analyst
+Mechanical,9.0,Cloud,Computer Networks,"CI/CD,Docker,Git,Kubernetes,Linux,Teamwork",2,2,Yes,70,74,67,65,82,88,Analytical,DevOps Engineer
+Civil,7.7,Web,Web Technology,"API testing,SQL,Testing",2,3,No,63,59,64,58,67,59,Coding,QA/Test Engineer
+Civil,6.8,Data,DBMS,"Excel,Pandas,Python,SQL,Tableau",0,0,No,79,84,86,96,79,71,Creative,Data Analyst
+Civil,8.5,Security,Network Security,"Linux,Networking,OWASP,SIEM",5,3,Yes,58,61,70,61,54,76,Management,Cybersecurity Analyst
+IT,8.0,Design,UI Basics,"Figma,Prototyping,Research,Wireframes",5,2,No,90,80,91,99,81,84,Analytical,UI/UX Designer
+EEE,9.4,Mobile,Kotlin,"Git,Kotlin,REST",1,3,No,74,66,84,67,79,87,Management,Android Developer
+Civil,6.9,Cloud,Cloud Computing,"CI/CD,Docker,Git,Kubernetes,Linux",4,2,No,56,66,68,41,61,66,Analytical,DevOps Engineer
+CSE,8.4,Security,Cryptography,"Linux,Networking,OWASP,SIEM",0,1,No,76,86,74,88,90,81,Creative,Cybersecurity Analyst
+ECE,9.3,Security,Network Security,"Linux,Networking,OWASP,SIEM",1,0,No,83,80,90,96,90,83,Management,Cybersecurity Analyst
+CSE,7.0,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",5,2,No,87,88,78,95,98,97,Analytical,Frontend Developer
+EEE,9.5,Web,JavaScript,"CSS,Git,HTML,JavaScript,Node,React,SQL",0,0,No,87,78,89,84,78,95,Coding,Full Stack Developer
+Civil,7.5,Web,Computer Networks,"Git,Linux,Python,REST,SQL",4,0,No,82,88,73,82,88,93,Management,Backend Developer
+Civil,9.4,Cloud,Computer Networks,"AWS,Docker,Networking,Terraform",4,3,No,73,63,62,78,86,80,Creative,Cloud Engineer
+IT,7.3,AI,ML,"Deep Learning,Docker,ML,Python,SQL",2,1,No,87,84,91,74,84,88,Creative,Machine Learning Engineer
+ECE,7.1,Data,ML,"Excel,Pandas,Python,SQL,Tableau",2,3,Yes,83,76,99,93,78,87,Coding,Data Analyst
+IT,8.5,Mobile,Kotlin,"Android,Git,Kotlin,REST",5,0,No,86,81,76,87,97,97,Management,Android Developer
+Civil,8.6,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",4,0,No,73,77,67,94,83,81,Coding,Frontend Developer
+EEE,7.6,Business,DBMS,"Agile,Documentation,Excel,SQL",1,2,No,70,60,75,79,90,89,Management,Business Analyst
+EEE,6.5,Data,Data Mining,"Excel,Pandas,Python,SQL,Tableau",3,1,No,93,86,89,99,92,99,Coding,Data Analyst
+ECE,8.7,Data,Data Mining,"Linux,ML,Pandas,Python,SQL,Statistics",2,1,No,91,98,96,88,90,99,Management,Data Scientist
+ECE,6.8,AI,Python,"Deep Learning,Docker,ML,Python,SQL",5,0,Yes,77,68,79,74,90,87,Analytical,Machine Learning Engineer
+Mechanical,7.6,Web,Computer Networks,"CSS,Git,JavaScript,Node,React,SQL",2,1,No,94,99,99,95,97,94,Management,Full Stack Developer
+EEE,7.5,Business,Management,"Agile,Documentation,Excel,SQL",2,2,No,61,67,64,58,86,61,Creative,Business Analyst
+IT,6.4,Data,DBMS,"Excel,Pandas,Python,SQL",4,2,No,72,69,84,59,68,99,Management,Data Analyst
+EEE,9.4,Data,ML,"Excel,Pandas,Python,SQL,Tableau",5,3,No,65,63,64,83,50,80,Analytical,Data Analyst
+Civil,7.1,Cloud,Computer Networks,"CI/CD,Docker,Git,Kubernetes,Linux,Teamwork",3,1,Yes,85,78,94,90,75,75,Management,DevOps Engineer
+Civil,7.7,Cloud,Cloud Computing,"AWS,Docker,Networking,Terraform",2,0,No,86,84,76,76,87,78,Coding,Cloud Engineer
+ECE,7.9,Web,JavaScript,"Git,Linux,Python,REST,SQL",0,0,No,65,57,62,82,50,72,Management,Backend Developer
+EEE,8.5,Security,OS,"Communication,Linux,Networking,OWASP,SIEM",5,0,No,84,74,73,72,85,98,Coding,Cybersecurity Analyst
+ECE,6.6,Cloud,Computer Networks,"CI/CD,Docker,Git,Kubernetes,Linux",2,0,No,73,66,77,59,74,69,Analytical,DevOps Engineer
+Civil,7.9,Business,Management,"Agile,Documentation,Excel,SQL,Teamwork",1,2,No,68,78,75,82,93,83,Coding,Business Analyst
+CSE,7.8,Web,JavaScript,"API testing,Docker,SQL,Selenium,Testing",2,2,No,92,87,82,99,77,85,Management,QA/Test Engineer
+EEE,6.5,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Linux,Node,React,SQL",3,0,No,88,94,82,99,83,99,Management,Full Stack Developer
+Civil,6.8,Web,Computer Networks,"Git,Linux,Python,REST,SQL,Teamwork",3,2,Yes,84,85,81,99,74,76,Management,Backend Developer
+ECE,8.6,Web,Web Technology,"CSS,Git,HTML,JavaScript,Linux,Node,React,SQL",4,2,No,61,71,68,58,53,52,Analytical,Full Stack Developer
+Mechanical,9.1,Web,Computer Networks,"Git,Linux,Python,REST",5,3,No,81,80,72,71,67,99,Creative,Backend Developer
+IT,8.9,Business,Management,"Agile,Documentation,Excel,Git,SQL",4,0,No,73,63,75,67,83,81,Coding,Business Analyst
+ECE,6.6,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL",5,2,Yes,95,89,92,99,99,92,Analytical,Full Stack Developer
+ECE,8.2,Security,Network Security,"Linux,Networking,OWASP,SIEM",0,2,Yes,84,93,87,97,86,99,Creative,Cybersecurity Analyst
+ECE,9.5,Web,Computer Networks,"API testing,SQL,Selenium,Testing",5,0,Yes,71,65,75,77,65,73,Coding,QA/Test Engineer
+Civil,9.1,Mobile,Mobile Computing,"Android,Git,Kotlin,REST",0,3,No,62,54,51,52,65,58,Analytical,Android Developer
+Civil,7.7,Web,Web Technology,"CSS,HTML,JavaScript,Node,React,SQL",3,0,No,67,66,56,61,80,58,Coding,Full Stack Developer
+Civil,7.7,Web,Web Technology,"Git,Linux,Python,REST,SQL",2,1,No,90,80,99,99,75,99,Coding,Backend Developer
+EEE,7.4,Design,Graphics,"Figma,Prototyping,Wireframes",5,0,No,85,81,93,99,76,86,Creative,UI/UX Designer
+Mechanical,7.4,Security,OS,"Linux,Networking,OWASP,SIEM,Statistics",5,2,Yes,72,73,73,59,72,90,Analytical,Cybersecurity Analyst
+EEE,6.4,Cloud,OS,"AWS,Docker,Terraform",3,2,Yes,57,61,47,43,60,70,Coding,Cloud Engineer
+CSE,8.9,Data,Statistics,"Excel,Pandas,Python,Tableau",4,3,Yes,68,62,83,81,55,93,Management,Data Analyst
+CSE,9.0,Web,Web Technology,"API testing,SQL,Selenium,Teamwork,Testing",5,1,Yes,74,83,77,83,82,89,Coding,QA/Test Engineer
+IT,6.6,Security,Cryptography,"Linux,Networking,OWASP,SIEM",3,0,No,56,48,59,41,44,58,Creative,Cybersecurity Analyst
+CSE,7.0,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL",3,2,Yes,61,63,62,51,74,59,Coding,Full Stack Developer
+ECE,8.6,Mobile,Kotlin,"Android,Kotlin,REST",1,2,No,80,70,90,81,65,75,Management,Android Developer
+EEE,7.9,Design,UI Basics,"Figma,Prototyping,Research,Wireframes",3,2,Yes,82,85,79,86,92,72,Coding,UI/UX Designer
+CSE,8.9,Data,ML,"ML,Pandas,Python,SQL,Statistics",3,1,No,74,80,77,81,87,99,Creative,Data Scientist
+IT,8.9,Design,Graphics,"Git,Prototyping,Research,Wireframes",5,3,Yes,89,97,78,99,85,98,Coding,UI/UX Designer
+Civil,7.1,Cloud,OS,"CI/CD,Git,Kubernetes,Linux",3,3,No,76,71,86,85,89,95,Creative,DevOps Engineer
+Mechanical,8.7,Mobile,Kotlin,"Android,Communication,Git,Kotlin,REST",5,3,No,69,62,64,67,57,68,Creative,Android Developer
+EEE,6.3,Mobile,Java,"Android,Git,Kotlin,REST",1,1,Yes,95,96,99,94,99,99,Analytical,Android Developer
+CSE,8.6,Web,JavaScript,"Git,Linux,Python,REST,SQL",4,0,No,87,91,82,71,95,99,Coding,Backend Developer
+Civil,8.3,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React",2,0,No,82,74,80,87,71,78,Coding,Frontend Developer
+ECE,8.1,Web,JavaScript,"API testing,SQL,Testing",3,1,No,86,89,90,99,73,85,Management,QA/Test Engineer
+CSE,7.4,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL",4,2,No,69,65,74,66,63,89,Management,Full Stack Developer
+Mechanical,8.0,Mobile,Kotlin,"Android,Git,Kotlin,REST",0,1,No,85,78,93,94,79,93,Analytical,Android Developer
+ECE,8.0,Cloud,Computer Networks,"Communication,Docker,Git,Kubernetes,Linux",2,0,No,77,84,74,88,92,72,Analytical,DevOps Engineer
+Civil,9.5,Data,Statistics,"Excel,Linux,Pandas,Python,SQL",1,3,No,68,61,84,59,82,72,Management,Data Analyst
+IT,7.0,AI,Python,"Deep Learning,Docker,ML,Python,SQL",0,1,Yes,57,56,45,75,61,59,Creative,Machine Learning Engineer
+CSE,7.6,Security,Network Security,"Linux,Networking,SIEM",5,0,No,88,90,99,73,79,87,Management,Cybersecurity Analyst
+ECE,9.1,AI,Python,"Deep Learning,Docker,ML,SQL",1,0,No,80,83,82,79,91,82,Management,Machine Learning Engineer
+Civil,9.4,Data,Data Mining,"Linux,ML,Pandas,Python,SQL,Statistics",4,2,No,92,82,92,98,86,99,Coding,Data Scientist
+Civil,9.1,Web,Computer Networks,"Git,Linux,Python,SQL",1,3,No,84,87,84,92,92,77,Coding,Backend Developer
+ECE,7.2,Security,Cryptography,"Linux,Networking,OWASP,SIEM",1,2,No,94,90,86,99,80,99,Analytical,Cybersecurity Analyst
+EEE,8.7,AI,Python,"Deep Learning,Docker,ML,Python,SQL",5,1,No,86,84,77,94,85,77,Creative,Machine Learning Engineer
+Civil,6.2,Web,Web Technology,"API testing,SQL,Selenium,Testing",0,2,No,85,89,76,98,89,99,Coding,QA/Test Engineer
+Civil,9.5,AI,Deep Learning,"Deep Learning,Docker,ML,Python,SQL",1,1,No,56,46,51,52,64,50,Analytical,Machine Learning Engineer
+ECE,6.7,Business,Economics,"Agile,Documentation,Excel",2,0,No,75,80,76,82,76,68,Analytical,Business Analyst
+CSE,8.7,Cloud,Computer Networks,"CI/CD,Docker,Kubernetes,Linux",4,0,No,62,55,58,46,49,61,Creative,DevOps Engineer
+Mechanical,6.2,Cloud,OS,"AWS,Docker,Terraform",2,0,No,94,87,87,80,99,99,Creative,Cloud Engineer
+CSE,9.0,AI,Python,"Deep Learning,Docker,ML,Python,SQL",2,0,No,61,55,55,74,76,61,Coding,Machine Learning Engineer
+CSE,7.1,Web,Web Technology,"CSS,Git,HTML,React",5,0,No,90,85,91,88,99,99,Analytical,Frontend Developer
+ECE,7.5,Cloud,Computer Networks,"CI/CD,Docker,Kubernetes,Linux",2,0,No,89,83,90,99,95,86,Coding,DevOps Engineer
+Mechanical,9.0,Security,Cryptography,"Linux,Networking,OWASP,SIEM",3,3,No,63,53,56,57,55,54,Management,Cybersecurity Analyst
+CSE,6.4,Cloud,Computer Networks,"AWS,Docker,Excel,Networking,Terraform",1,0,No,81,82,90,97,95,75,Management,Cloud Engineer
+Civil,7.9,Mobile,Kotlin,"Android,Git,Kotlin,REST",5,3,No,76,68,69,78,88,87,Management,Android Developer
+ECE,8.3,Web,JavaScript,"Git,Linux,Python,REST,SQL",3,0,Yes,60,54,50,69,48,73,Coding,Backend Developer
+Civil,8.3,Web,JavaScript,"CSS,Git,HTML,JavaScript,React",1,1,Yes,76,68,64,98,68,84,Analytical,Frontend Developer
+Civil,7.7,Cloud,OS,"CI/CD,Docker,Git,Kubernetes,Linux",5,0,No,65,59,71,50,54,65,Management,DevOps Engineer
+IT,8.9,Cloud,OS,"CI/CD,Docker,Excel,Git,Kubernetes,Linux",4,2,Yes,92,99,99,98,79,82,Management,DevOps Engineer
+CSE,9.3,Design,HCI,"Figma,Prototyping,Research,Wireframes",0,3,Yes,78,76,83,99,89,79,Creative,UI/UX Designer
+IT,8.6,Data,Statistics,"ML,Pandas,Python,SQL,Statistics",5,0,No,77,85,82,78,75,96,Coding,Data Scientist
+IT,8.9,Web,JavaScript,"CSS,Git,HTML,JavaScript,React",5,1,No,83,90,73,93,75,81,Coding,Frontend Developer
+IT,8.1,Data,Statistics,"ML,Pandas,Python,SQL,Statistics",2,0,No,80,83,93,68,75,81,Coding,Data Scientist
+IT,9.5,Web,Web Technology,"Git,Linux,REST,SQL",3,2,No,81,83,84,93,73,85,Analytical,Backend Developer
+ECE,9.4,Web,Computer Networks,"API testing,SQL,Selenium,Testing",5,1,No,74,80,71,92,80,68,Management,QA/Test Engineer
+EEE,8.5,Data,ML,"ML,Pandas,Python,SQL",1,0,Yes,76,75,85,70,74,92,Coding,Data Scientist
+Civil,7.9,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",1,1,No,83,79,99,68,95,86,Creative,Data Analyst
+Civil,8.4,Data,ML,"Excel,Pandas,Python,SQL,Tableau",2,3,No,80,75,93,69,94,96,Analytical,Data Analyst
+CSE,7.0,AI,Deep Learning,"Deep Learning,Docker,ML,Python,SQL,Statistics",3,1,No,63,73,74,70,73,78,Coding,Machine Learning Engineer
+ECE,8.7,Security,OS,"Linux,Networking,OWASP,SIEM",3,0,No,90,92,98,76,99,89,Management,Cybersecurity Analyst
+Civil,9.1,AI,Deep Learning,"Deep Learning,Docker,ML,Python,SQL",3,2,No,56,61,60,61,57,71,Management,Machine Learning Engineer
+Civil,8.6,Cloud,OS,"AWS,Docker,Networking,Terraform",4,2,No,75,65,80,57,81,65,Creative,Cloud Engineer
+ECE,6.7,Security,OS,"Linux,Networking,OWASP",0,3,No,78,75,69,61,72,95,Management,Cybersecurity Analyst
+EEE,8.7,Web,JavaScript,"Docker,Git,Linux,Python,REST,SQL",0,2,No,75,84,83,88,87,82,Creative,Backend Developer
+IT,8.6,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React",0,0,No,89,83,78,99,92,96,Analytical,Frontend Developer
+CSE,8.9,Cloud,OS,"CI/CD,Communication,Docker,Git,Kubernetes",3,1,Yes,92,95,83,95,85,84,Management,DevOps Engineer
+IT,7.8,AI,Python,"Deep Learning,Docker,ML,Python,SQL",2,3,No,89,79,86,98,99,79,Creative,Machine Learning Engineer
+ECE,9.4,Business,DBMS,"Agile,Documentation,Excel,SQL",0,1,Yes,82,82,81,76,79,92,Analytical,Business Analyst
+CSE,9.2,Cloud,Cloud Computing,"CI/CD,Docker,Git,Linux",0,0,No,72,78,78,76,68,67,Analytical,DevOps Engineer
+CSE,8.4,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",1,3,No,69,66,70,52,63,79,Management,Data Analyst
+CSE,8.4,Web,Web Technology,"API testing,Selenium,Testing",5,1,No,95,89,99,89,82,94,Management,QA/Test Engineer
+IT,7.2,Cloud,Cloud Computing,"CI/CD,Docker,Git,Kubernetes,Linux",2,3,No,67,74,68,74,60,76,Management,DevOps Engineer
+IT,9.3,AI,Python,"Deep Learning,Linux,ML,Python,SQL",4,3,Yes,77,78,72,72,83,77,Coding,Machine Learning Engineer
+Mechanical,8.3,Web,Web Technology,"CSS,Git,JavaScript,React",1,0,No,79,77,77,85,78,79,Coding,Frontend Developer
+CSE,6.9,Web,JavaScript,"Git,Linux,Python,REST,SQL",0,0,No,64,71,70,65,51,61,Creative,Backend Developer
+IT,7.6,Data,DBMS,"Communication,ML,Pandas,Python,SQL,Statistics",0,0,No,65,74,75,57,73,66,Creative,Data Scientist
+Civil,7.9,Cloud,OS,"AWS,Docker,Networking,Terraform",2,0,No,84,83,74,71,81,99,Analytical,Cloud Engineer
+Civil,7.1,Web,JavaScript,"Git,Linux,Python,REST,SQL",0,2,No,83,75,72,68,79,99,Coding,Backend Developer
+IT,7.2,Design,Graphics,"Figma,Prototyping,Research,Wireframes",2,3,Yes,76,83,66,73,62,74,Management,UI/UX Designer
+EEE,7.3,Business,Management,"Agile,Documentation,Excel,SQL",4,1,No,58,57,66,73,74,69,Creative,Business Analyst
+Civil,8.3,Web,JavaScript,"API testing,SQL,Selenium,Testing",5,0,No,57,53,65,67,52,77,Analytical,QA/Test Engineer
+ECE,7.3,Cloud,Cloud Computing,"CI/CD,Docker,Git,Linux",2,1,No,83,73,88,75,85,82,Creative,DevOps Engineer
+Civil,7.4,Design,HCI,"Figma,Prototyping,Research,Wireframes",5,1,No,65,74,56,73,66,67,Coding,UI/UX Designer
+EEE,6.7,Cloud,Computer Networks,"CI/CD,Docker,Git,Kubernetes,Linux",0,2,No,64,54,74,73,60,66,Coding,DevOps Engineer
+Mechanical,6.1,Security,OS,"Linux,Networking,OWASP,SIEM",2,0,No,72,80,60,75,69,82,Analytical,Cybersecurity Analyst
+CSE,6.2,Web,JavaScript,"Git,Linux,Python,REST,SQL",2,3,Yes,84,90,94,85,91,86,Coding,Backend Developer
+Civil,8.1,Web,JavaScript,"CSS,Git,HTML,JavaScript,React",0,2,No,70,60,82,91,73,79,Management,Frontend Developer
+EEE,6.7,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",2,0,No,71,81,66,76,77,95,Analytical,Data Analyst
+IT,6.7,AI,Deep Learning,"Deep Learning,Docker,ML,Python,SQL",5,1,No,76,81,87,65,76,87,Management,Machine Learning Engineer
+EEE,9.1,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL",4,0,No,60,63,72,52,53,64,Analytical,Full Stack Developer
+CSE,8.0,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL,Teamwork",1,2,Yes,73,83,83,60,69,92,Management,Full Stack Developer
+IT,9.0,Web,Web Technology,"API testing,Docker,SQL,Selenium,Testing",4,3,No,94,90,90,97,99,99,Analytical,QA/Test Engineer
+EEE,6.5,Mobile,Java,"Android,Git,Kotlin,REST",2,1,Yes,57,53,52,41,48,51,Coding,Android Developer
+IT,6.7,Business,Management,"Agile,Communication,Documentation,Excel,SQL",2,1,No,67,61,55,60,83,65,Creative,Business Analyst
+Civil,8.4,Design,HCI,"Docker,Prototyping,Research,Wireframes",1,3,No,60,51,50,72,52,61,Creative,UI/UX Designer
+EEE,8.3,AI,Python,"Deep Learning,Docker,ML,Python,Teamwork",0,3,No,87,81,99,80,94,95,Analytical,Machine Learning Engineer
+ECE,9.2,Design,UI Basics,"Figma,Prototyping,Research,Wireframes",4,0,No,60,57,54,77,64,65,Management,UI/UX Designer
+EEE,9.0,Security,Network Security,"Excel,Linux,OWASP,SIEM",2,3,No,68,73,75,53,56,76,Creative,Cybersecurity Analyst
+IT,7.3,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",3,2,No,94,93,99,83,90,97,Management,Data Analyst
+Mechanical,8.3,Security,OS,"Linux,Networking,OWASP,SIEM",1,3,No,57,49,47,58,52,58,Management,Cybersecurity Analyst
+IT,8.2,Data,ML,"Docker,Excel,Pandas,Python,SQL,Tableau",1,3,No,79,86,81,74,70,78,Creative,Data Analyst
+IT,7.1,Mobile,Java,"Android,Git,Kotlin,REST,Statistics",4,3,No,92,86,84,90,77,99,Analytical,Android Developer
+CSE,6.8,Web,Computer Networks,"Git,Linux,Python,REST,SQL",5,0,No,61,51,73,49,60,56,Coding,Backend Developer
+CSE,7.0,AI,Python,"Docker,Linux,ML,Python,SQL",1,0,Yes,68,61,77,63,80,79,Management,Machine Learning Engineer
+Mechanical,7.9,Design,Graphics,"Figma,Prototyping,Research,Wireframes",2,2,No,83,73,83,79,91,74,Coding,UI/UX Designer
+Civil,9.4,Web,Computer Networks,"API testing,SQL,Selenium,Testing",4,2,No,74,67,64,64,63,64,Analytical,QA/Test Engineer
+ECE,7.9,Design,Graphics,"Docker,Figma,Prototyping,Research,Wireframes",5,1,Yes,94,99,93,99,89,99,Creative,UI/UX Designer
+IT,7.0,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",1,3,Yes,55,50,61,65,55,60,Management,Frontend Developer
+ECE,8.3,Web,Web Technology,"Docker,Git,Linux,Python,REST,SQL",5,3,Yes,84,86,74,86,77,84,Creative,Backend Developer
+Civil,9.3,Cloud,Computer Networks,"AWS,Docker,Networking,Terraform",5,0,No,55,55,55,67,43,63,Coding,Cloud Engineer
+Mechanical,7.4,Data,Data Mining,"Communication,Excel,Pandas,Python,SQL,Tableau",3,3,No,77,86,88,83,75,84,Management,Data Analyst
+CSE,7.6,Cloud,OS,"CI/CD,Docker,Git,Kubernetes,Linux,Statistics",2,0,Yes,75,84,78,64,72,74,Management,DevOps Engineer
+EEE,7.3,AI,ML,"Deep Learning,Docker,ML,Python,SQL",0,2,No,56,53,65,40,61,69,Analytical,Machine Learning Engineer
+EEE,8.4,Web,JavaScript,"API testing,Docker,SQL,Selenium,Testing",0,3,No,92,96,83,94,81,82,Creative,QA/Test Engineer
+CSE,7.5,Web,Web Technology,"Git,Linux,Python,REST,SQL",0,3,No,76,82,71,79,85,71,Creative,Backend Developer
+Mechanical,6.8,Data,Data Mining,"ML,Pandas,Python,SQL,Statistics,Teamwork",4,1,No,61,63,64,58,54,77,Creative,Data Scientist
+EEE,8.1,Web,Computer Networks,"Git,Linux,Python,REST,SQL",3,2,No,74,70,80,59,78,94,Creative,Backend Developer
+Civil,7.3,Design,Graphics,"Figma,Prototyping,Research,Wireframes",5,0,No,95,86,98,99,80,91,Coding,UI/UX Designer
+Civil,6.6,Cloud,Computer Networks,"AWS,Docker,Networking,Terraform",5,3,No,82,80,92,84,75,77,Creative,Cloud Engineer
+Mechanical,7.2,Data,Statistics,"ML,Pandas,Python,SQL,Statistics",5,0,No,56,53,64,41,46,83,Analytical,Data Scientist
+EEE,7.0,Web,Web Technology,"CSS,Docker,Git,HTML,JavaScript,Node,React,SQL",2,1,Yes,76,71,73,94,82,90,Analytical,Full Stack Developer
+CSE,9.3,Web,Web Technology,"CSS,Git,HTML,JavaScript,Node,React,SQL",0,3,Yes,80,81,84,85,72,82,Creative,Full Stack Developer
+IT,6.6,Web,Web Technology,"API testing,SQL,Selenium",3,2,No,68,69,73,53,53,69,Coding,QA/Test Engineer
+Civil,8.4,Security,OS,"Linux,Networking,OWASP,SIEM",2,2,No,94,99,99,99,95,99,Management,Cybersecurity Analyst
+CSE,6.8,Design,Graphics,"Excel,Figma,Prototyping,Research,Wireframes",4,0,No,70,64,58,68,73,85,Management,UI/UX Designer
+ECE,8.5,Web,Web Technology,"API testing,Linux,SQL,Selenium,Testing",2,1,Yes,78,82,71,96,66,68,Management,QA/Test Engineer
+Civil,6.4,Web,Computer Networks,"CSS,Excel,Git,HTML,JavaScript",5,0,No,57,53,45,57,48,54,Creative,Frontend Developer
+Mechanical,6.0,Web,Computer Networks,"CSS,Docker,Git,HTML,React",2,0,Yes,90,86,82,99,84,99,Analytical,Frontend Developer
+ECE,8.0,Web,Computer Networks,"Git,Linux,Python,REST,SQL",2,0,No,56,57,54,48,66,76,Management,Backend Developer
+EEE,6.1,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React",3,1,No,65,62,75,65,62,82,Creative,Frontend Developer
+Mechanical,8.9,Data,ML,"Excel,Pandas,Python,SQL,Tableau",2,2,No,86,93,95,78,94,99,Coding,Data Analyst
+Mechanical,6.1,Business,Management,"Documentation,Excel,SQL",4,3,No,68,61,68,54,82,70,Analytical,Business Analyst
+EEE,6.9,Data,DBMS,"ML,Pandas,Python,SQL,Statistics",5,0,No,75,66,78,62,82,80,Coding,Data Scientist
+ECE,8.7,Business,Economics,"Agile,Documentation,Excel,SQL",5,0,No,87,83,99,78,99,89,Analytical,Business Analyst
+IT,7.8,Mobile,Mobile Computing,"Android,Git,Kotlin,REST",1,1,Yes,66,70,78,60,59,84,Management,Android Developer
+Mechanical,8.4,Cloud,OS,"CI/CD,Docker,Git,Kubernetes,Linux",3,3,No,87,96,76,94,80,92,Management,DevOps Engineer
+Mechanical,6.2,Web,Web Technology,"API testing,Excel,SQL,Selenium,Testing",4,2,No,71,70,61,60,59,78,Analytical,QA/Test Engineer
+Mechanical,7.7,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL",3,1,No,57,57,63,46,48,47,Management,Full Stack Developer
+Mechanical,6.1,Web,Web Technology,"Git,Linux,Python,REST,SQL",2,1,No,95,95,98,82,95,96,Management,Backend Developer
+IT,7.6,Data,Statistics,"Docker,Excel,Pandas,Python,SQL,Tableau",0,3,Yes,70,61,76,56,58,88,Creative,Data Analyst
+IT,9.1,Cloud,OS,"AWS,Docker,Networking,Terraform",0,3,Yes,57,62,60,71,43,60,Management,Cloud Engineer
+Mechanical,9.3,Design,UI Basics,"Figma,Prototyping,Research,Wireframes",5,1,No,95,99,99,99,93,99,Coding,UI/UX Designer
+CSE,8.1,Cloud,Computer Networks,"AWS,Communication,Networking,Terraform",1,2,No,83,78,78,67,72,76,Management,Cloud Engineer
+EEE,8.3,Cloud,Computer Networks,"CI/CD,Docker,Git,Kubernetes,Linux",2,0,No,92,92,80,94,89,99,Management,DevOps Engineer
+IT,8.8,Web,Web Technology,"CSS,Excel,Git,HTML,JavaScript,React",4,0,No,81,83,89,99,72,93,Management,Frontend Developer
+EEE,6.2,Business,Management,"Agile,Documentation,Excel,SQL,Teamwork",1,2,No,67,63,57,50,75,57,Creative,Business Analyst
+ECE,6.6,Cloud,OS,"AWS,Docker,Networking,Terraform",1,1,No,70,67,75,59,75,75,Analytical,Cloud Engineer
+EEE,8.6,Mobile,Kotlin,"Android,Git,Kotlin,REST",2,2,No,78,79,87,85,75,87,Creative,Android Developer
+Civil,8.5,Web,Web Technology,"API testing,SQL,Selenium,Testing",1,0,No,88,85,86,80,73,78,Coding,QA/Test Engineer
+EEE,7.0,Web,Web Technology,"CSS,Docker,Git,HTML,JavaScript,Node,React,SQL",4,1,Yes,64,61,71,74,50,58,Creative,Full Stack Developer
+ECE,6.3,Cloud,Cloud Computing,"CI/CD,Docker,Kubernetes,Linux",1,2,No,56,62,46,72,68,60,Creative,DevOps Engineer
+Mechanical,8.6,Cloud,OS,"CI/CD,Communication,Docker,Git,Kubernetes,Linux",5,2,No,78,68,69,94,81,79,Analytical,DevOps Engineer
+IT,8.6,Data,ML,"Excel,Pandas,Python,SQL,Tableau",0,1,No,69,63,88,87,64,81,Coding,Data Analyst
+Civil,7.6,AI,ML,"Deep Learning,Docker,ML,SQL",2,2,No,61,54,50,53,61,55,Management,Machine Learning Engineer
+EEE,6.8,Data,Statistics,"ML,Pandas,Python,SQL,Statistics",2,0,No,62,66,77,47,52,60,Creative,Data Scientist
+EEE,8.4,Mobile,Mobile Computing,"Android,Communication,Git,Kotlin,REST",0,0,Yes,68,73,72,50,65,77,Coding,Android Developer
+CSE,8.1,Business,Management,"Agile,Documentation,Excel,SQL",4,1,No,77,74,78,89,92,86,Management,Business Analyst
+Civil,7.4,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React",5,3,No,56,64,46,65,48,58,Analytical,Frontend Developer
+Civil,8.3,Web,Web Technology,"CSS,Git,HTML,JavaScript,Node,React,SQL",2,3,No,63,69,72,78,50,73,Management,Full Stack Developer
+ECE,7.4,Design,Graphics,"Prototyping,Research,Wireframes",1,2,Yes,80,80,89,95,67,87,Analytical,UI/UX Designer
+IT,8.3,Business,DBMS,"Agile,Documentation,Excel,SQL",5,2,No,94,85,91,99,99,89,Creative,Business Analyst
+ECE,6.4,Business,Management,"Agile,Docker,Documentation,Excel,SQL",3,0,Yes,90,95,99,87,99,99,Management,Business Analyst
+ECE,6.3,Web,JavaScript,"Git,Python,REST,SQL",5,2,No,95,85,94,83,99,92,Management,Backend Developer
+Civil,9.0,Web,Web Technology,"Git,Linux,Python,REST,SQL",3,0,No,91,97,99,85,86,99,Management,Backend Developer
+ECE,6.8,Web,JavaScript,"CSS,Git,HTML,JavaScript,Node,React,SQL",5,3,No,85,84,84,99,99,99,Coding,Full Stack Developer
+Mechanical,9.5,Web,Web Technology,"CSS,Excel,Git,HTML,JavaScript,React",1,2,Yes,70,80,69,84,60,74,Coding,Frontend Developer
+CSE,6.0,Data,Statistics,"ML,Pandas,SQL,Statistics",4,2,No,78,81,75,77,86,99,Creative,Data Scientist
+CSE,7.1,Web,Web Technology,"Communication,Git,Linux,Python,REST,SQL",1,3,No,65,74,58,52,69,82,Management,Backend Developer
+IT,9.2,Web,Computer Networks,"Git,Linux,Python,REST",2,3,No,87,95,83,69,81,99,Coding,Backend Developer
+ECE,7.1,Web,Web Technology,"CSS,Communication,Git,HTML,JavaScript,Node,React,SQL",4,3,No,83,92,82,93,69,96,Coding,Full Stack Developer
+CSE,6.2,Mobile,Kotlin,"Android,Git,Kotlin,REST",2,3,No,66,71,65,59,73,60,Analytical,Android Developer
+EEE,6.4,Design,UI Basics,"Figma,Research,Wireframes",2,2,No,87,86,90,99,99,79,Management,UI/UX Designer
+IT,7.5,Design,HCI,"Figma,Prototyping,Research,Wireframes",4,2,No,74,67,70,99,86,82,Creative,UI/UX Designer
+EEE,8.1,Design,UI Basics,"Prototyping,Research,Wireframes",1,2,No,93,86,99,86,85,95,Management,UI/UX Designer
+IT,9.2,Cloud,Computer Networks,"Communication,Docker,Networking,Terraform",5,2,No,67,65,65,57,53,79,Creative,Cloud Engineer
+CSE,6.6,Web,Computer Networks,"Git,Linux,Python,REST,SQL",4,3,No,95,99,93,86,94,87,Management,Backend Developer
+IT,6.5,Web,Computer Networks,"Git,Linux,Python,REST,SQL",5,2,Yes,80,72,91,64,78,70,Management,Backend Developer
+CSE,6.6,Mobile,Kotlin,"Android,Git,Kotlin,REST",3,0,No,91,82,88,99,84,99,Creative,Android Developer
+Mechanical,9.4,AI,Deep Learning,"Deep Learning,Docker,ML,Python,SQL",0,3,No,85,78,83,82,70,75,Creative,Machine Learning Engineer
+Mechanical,6.3,Cloud,Computer Networks,"CI/CD,Docker,Git,Kubernetes",4,2,No,94,99,91,99,92,90,Management,DevOps Engineer
+IT,8.9,Cloud,OS,"CI/CD,Docker,Git,Kubernetes,Linux",4,2,No,77,71,80,84,77,83,Coding,DevOps Engineer
+Civil,7.3,Mobile,Java,"Git,Kotlin,Linux,REST",0,3,No,67,73,79,76,82,65,Coding,Android Developer
+Civil,8.5,Cloud,Computer Networks,"AWS,Docker,Linux,Networking,Terraform",0,2,No,79,72,88,81,94,85,Creative,Cloud Engineer
+IT,7.1,Cloud,Computer Networks,"AWS,Docker,Git,Networking,Terraform",4,3,No,86,94,94,71,73,82,Analytical,Cloud Engineer
+Civil,7.7,Mobile,Kotlin,"Android,Git,Kotlin,REST",3,1,No,85,95,74,90,90,97,Creative,Android Developer
+Civil,6.7,Data,ML,"ML,Pandas,Python,SQL,Statistics",5,0,No,63,72,79,56,67,82,Creative,Data Scientist
+ECE,8.5,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL",1,2,Yes,92,99,99,83,99,93,Coding,Full Stack Developer
+Civil,8.2,Cloud,OS,"CI/CD,Git,Kubernetes,Linux,Teamwork",5,2,No,81,79,79,67,86,77,Management,DevOps Engineer
+ECE,6.4,Business,DBMS,"Agile,Documentation,Excel,SQL",0,1,Yes,72,68,73,88,82,72,Creative,Business Analyst
+Mechanical,7.0,Design,UI Basics,"Figma,Prototyping,Research,Wireframes",4,2,No,84,83,80,99,74,76,Analytical,UI/UX Designer
+IT,9.1,Cloud,OS,"CI/CD,Docker,Git,Kubernetes,Linux",4,3,No,84,92,80,99,94,93,Management,DevOps Engineer
+EEE,8.3,Business,Management,"Agile,Documentation,Excel,SQL",1,2,No,65,59,69,74,84,77,Creative,Business Analyst
+IT,7.3,Web,Web Technology,"API testing,SQL,Selenium,Testing",3,3,No,85,88,81,99,89,88,Creative,QA/Test Engineer
+EEE,8.3,Cloud,Cloud Computing,"AWS,Docker,Networking,Terraform",5,0,No,84,79,96,74,96,96,Management,Cloud Engineer
+EEE,6.8,Business,DBMS,"Agile,Documentation,Excel,SQL",5,3,No,60,64,58,54,66,74,Management,Business Analyst
+Mechanical,6.1,Web,Web Technology,"API testing,Linux,SQL,Selenium,Testing",2,3,No,60,53,58,75,58,54,Coding,QA/Test Engineer
+Mechanical,9.0,Web,Web Technology,"API testing,Linux,SQL,Selenium,Testing",4,1,Yes,78,68,75,83,72,77,Management,QA/Test Engineer
+EEE,7.4,Mobile,Kotlin,"Android,Git,Kotlin,REST",1,3,Yes,63,67,61,48,75,82,Coding,Android Developer
+IT,7.3,Mobile,Kotlin,"Android,Docker,Git,Kotlin,REST",2,1,No,84,90,77,94,80,99,Management,Android Developer
+Civil,9.1,AI,ML,"Deep Learning,Docker,ML,Python,SQL",1,0,No,92,99,95,99,98,96,Analytical,Machine Learning Engineer
+EEE,9.1,Business,Economics,"Agile,Documentation,Excel,SQL,Statistics",0,1,No,93,91,99,90,99,99,Management,Business Analyst
+CSE,9.3,Web,JavaScript,"Excel,Git,Linux,Python,REST,SQL",4,0,Yes,76,68,71,66,86,84,Analytical,Backend Developer
+ECE,6.8,Design,UI Basics,"Docker,Figma,Prototyping,Research,Wireframes",1,3,No,70,66,81,75,82,68,Analytical,UI/UX Designer
+IT,9.1,Business,DBMS,"Agile,Documentation,Excel",5,2,No,55,58,56,40,78,75,Coding,Business Analyst
+Civil,7.4,Business,Economics,"Agile,Documentation,Excel,SQL",4,1,No,59,67,65,49,76,51,Analytical,Business Analyst
+ECE,9.2,Security,OS,"Linux,Networking,OWASP,SIEM",2,1,Yes,88,92,97,78,79,99,Creative,Cybersecurity Analyst
+CSE,8.8,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React",3,2,Yes,87,80,95,99,72,99,Management,Frontend Developer
+ECE,7.6,Data,DBMS,"ML,Pandas,Python,SQL,Statistics",4,0,No,67,70,84,56,79,82,Management,Data Scientist
+ECE,8.3,Web,Web Technology,"CSS,Git,HTML,JavaScript,Node,React",5,0,No,81,76,74,65,92,83,Management,Full Stack Developer
+ECE,7.3,Web,JavaScript,"CSS,Git,HTML,JavaScript,Node,React,SQL",2,0,No,78,82,88,75,64,89,Creative,Full Stack Developer
+ECE,7.0,Mobile,Java,"Android,Git,Kotlin,REST",1,2,Yes,74,66,75,76,86,66,Creative,Android Developer
+CSE,9.5,Business,Economics,"Agile,Documentation,Excel,SQL,Teamwork",1,2,No,84,94,86,99,79,97,Creative,Business Analyst
+Civil,9.3,Web,Computer Networks,"CSS,Docker,HTML,JavaScript,React",1,1,No,79,76,75,99,71,90,Coding,Frontend Developer
+EEE,6.8,Security,OS,"Linux,Networking,OWASP,SIEM",3,0,Yes,70,61,75,69,74,80,Analytical,Cybersecurity Analyst
+IT,7.6,Business,Management,"Agile,Communication,Documentation,Excel,SQL",3,1,No,71,75,76,58,69,85,Creative,Business Analyst
+IT,8.2,Data,DBMS,"ML,Pandas,Python,SQL,Statistics",2,3,No,77,77,90,91,72,79,Coding,Data Scientist
+EEE,7.0,Data,Data Mining,"Excel,Pandas,Python,Tableau",1,3,No,84,86,85,74,78,83,Management,Data Analyst
+Civil,7.1,Cloud,Cloud Computing,"AWS,Docker,Networking,Terraform",0,2,No,60,67,62,60,65,56,Analytical,Cloud Engineer
+IT,8.0,Design,UI Basics,"Prototyping,Research,Wireframes",5,3,No,61,56,54,69,63,63,Coding,UI/UX Designer
+Civil,7.8,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React",0,0,No,66,66,72,74,52,59,Management,Frontend Developer
+ECE,6.0,Web,Computer Networks,"API testing,SQL,Selenium,Testing",3,3,No,57,54,60,64,57,63,Management,QA/Test Engineer
+Mechanical,6.5,Security,Cryptography,"Excel,Linux,OWASP,SIEM",0,2,No,61,59,50,72,57,55,Analytical,Cybersecurity Analyst
+IT,7.0,Security,Network Security,"Linux,Networking,OWASP,SIEM",0,1,No,90,98,88,89,79,99,Coding,Cybersecurity Analyst
+Civil,9.3,Business,Management,"Documentation,Excel,SQL",5,0,No,86,92,87,99,80,87,Creative,Business Analyst
+EEE,6.0,Business,Management,"Agile,Documentation,Excel,SQL",5,3,No,89,90,79,75,97,79,Management,Business Analyst
+ECE,7.5,Data,ML,"Excel,Pandas,Python,SQL,Tableau",4,1,No,75,74,93,69,75,80,Analytical,Data Analyst
+Mechanical,6.7,Web,Web Technology,"Git,Linux,REST,SQL",4,0,No,64,57,56,80,57,79,Analytical,Backend Developer
+IT,7.1,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL,Statistics",3,1,No,87,80,92,75,82,84,Management,Full Stack Developer
+Civil,8.2,Web,JavaScript,"CSS,Git,HTML,JavaScript,React",0,0,No,72,70,61,69,67,86,Analytical,Frontend Developer
+Mechanical,6.0,Web,Web Technology,"CSS,Excel,Git,HTML,JavaScript,Node,React,SQL",4,3,Yes,73,76,68,74,61,64,Analytical,Full Stack Developer
+Mechanical,7.5,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React,SQL",2,0,Yes,79,77,82,63,84,81,Coding,Full Stack Developer
+CSE,7.4,Web,JavaScript,"CSS,Git,HTML,JavaScript,Node,React,SQL",1,1,No,87,92,76,71,73,81,Coding,Full Stack Developer
+Mechanical,7.4,Security,OS,"Excel,Linux,Networking,OWASP,SIEM",3,0,No,68,75,78,77,78,71,Coding,Cybersecurity Analyst
+CSE,8.8,Web,JavaScript,"API testing,Git,SQL,Selenium,Testing",4,3,Yes,80,72,76,73,72,99,Management,QA/Test Engineer
+EEE,7.8,Cloud,Computer Networks,"AWS,Docker,Networking,Terraform",2,2,No,65,56,54,66,73,80,Coding,Cloud Engineer
+Mechanical,7.5,Design,HCI,"Docker,Figma,Prototyping,Research,Wireframes",3,1,No,60,70,61,66,61,74,Coding,UI/UX Designer
+ECE,7.6,Web,Web Technology,"CSS,Communication,Git,HTML,JavaScript,Node,React,SQL",4,3,No,65,60,63,83,73,65,Analytical,Full Stack Developer
+EEE,6.1,Mobile,Java,"Android,Kotlin,REST",4,1,No,71,73,71,82,65,75,Coding,Android Developer
+IT,7.4,Web,JavaScript,"API testing,SQL,Selenium,Testing",1,0,Yes,90,86,98,86,99,82,Management,QA/Test Engineer
+CSE,7.8,Web,Web Technology,"API testing,SQL,Selenium,Testing",2,1,No,83,77,95,97,83,96,Creative,QA/Test Engineer
+ECE,8.4,Web,JavaScript,"CSS,Excel,Git,HTML,JavaScript,Node,React,SQL",3,1,No,60,67,69,62,66,61,Creative,Full Stack Developer
+EEE,8.1,AI,Python,"Deep Learning,Docker,ML,Python,SQL",4,2,No,67,77,61,67,73,68,Analytical,Machine Learning Engineer
+Civil,9.2,Cloud,Cloud Computing,"CI/CD,Docker,Excel,Git,Linux",5,1,Yes,86,86,74,71,98,99,Creative,DevOps Engineer
+ECE,8.5,Web,Computer Networks,"API testing,Git,SQL,Selenium,Testing",2,2,Yes,58,62,70,47,57,57,Creative,QA/Test Engineer
+EEE,6.6,Data,DBMS,"Excel,Pandas,Python,SQL,Tableau",0,0,Yes,81,87,78,77,68,96,Analytical,Data Analyst
+IT,6.5,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React,Statistics",0,3,No,66,70,76,87,65,57,Analytical,Frontend Developer
+ECE,8.7,Design,HCI,"Figma,Git,Prototyping,Research,Wireframes",2,0,Yes,77,82,85,75,84,84,Creative,UI/UX Designer
+CSE,9.1,Cloud,Cloud Computing,"AWS,Docker,Excel,Networking,Terraform",5,2,No,85,91,95,75,76,79,Coding,Cloud Engineer
+EEE,9.4,Business,DBMS,"Agile,Excel,SQL",2,2,No,77,72,85,72,85,93,Coding,Business Analyst
+Civil,8.1,Mobile,Mobile Computing,"Android,Git,REST",1,3,No,74,82,78,90,80,92,Management,Android Developer
+Mechanical,6.1,Web,JavaScript,"CSS,Git,HTML,JavaScript,React",3,3,No,59,68,65,71,47,71,Coding,Frontend Developer
+Mechanical,7.3,AI,Deep Learning,"Deep Learning,Docker,ML,SQL",1,1,No,72,77,71,62,78,85,Coding,Machine Learning Engineer
+IT,8.9,Mobile,Java,"Android,Git,Kotlin,REST",3,1,No,64,70,75,48,68,64,Coding,Android Developer
+Civil,6.1,Web,Web Technology,"CSS,Docker,Git,HTML,JavaScript,Node,React,SQL",0,2,No,57,61,56,73,52,73,Analytical,Full Stack Developer
+Civil,8.5,Data,ML,"ML,Pandas,Python,SQL,Statistics",5,1,No,60,60,64,47,61,87,Analytical,Data Scientist
+IT,6.4,Security,Network Security,"Linux,Networking,OWASP,SIEM",4,1,No,69,63,78,52,65,61,Management,Cybersecurity Analyst
+IT,8.8,Business,Management,"Agile,Documentation,Excel,SQL",2,3,No,57,57,69,51,76,64,Coding,Business Analyst
+Mechanical,8.0,Cloud,Cloud Computing,"AWS,Networking,Terraform",5,0,No,58,59,49,64,54,62,Creative,Cloud Engineer
+Mechanical,7.6,Business,Economics,"Agile,Documentation,Excel,SQL",3,3,No,72,69,78,79,85,91,Creative,Business Analyst
+IT,6.2,Web,JavaScript,"Git,HTML,JavaScript,Node,React,SQL,Teamwork",0,1,No,85,85,88,79,94,99,Coding,Full Stack Developer
+EEE,7.3,Data,ML,"Excel,Pandas,Python,SQL",4,3,Yes,56,59,73,55,58,66,Creative,Data Analyst
+Civil,7.1,Web,Computer Networks,"API testing,SQL,Selenium,Testing",1,3,No,89,84,78,99,97,87,Creative,QA/Test Engineer
+EEE,7.6,Cloud,OS,"AWS,Docker,Excel,Networking",4,2,No,92,96,90,94,92,99,Management,Cloud Engineer
+Civil,8.8,Web,JavaScript,"CSS,Git,HTML,JavaScript,Node,React,SQL,Statistics",4,0,No,64,61,61,73,49,73,Coding,Full Stack Developer
+EEE,6.4,AI,Python,"Deep Learning,Docker,ML,Python,SQL",5,3,No,87,89,97,87,94,98,Creative,Machine Learning Engineer
+Mechanical,8.1,Data,Statistics,"Excel,Pandas,Python,SQL,Tableau",1,2,No,87,92,98,95,91,83,Management,Data Analyst
+IT,6.4,Cloud,Computer Networks,"AWS,Networking,Terraform",1,2,No,95,87,99,87,98,99,Analytical,Cloud Engineer
+Mechanical,9.3,Security,OS,"Linux,Networking,OWASP,SIEM",2,3,Yes,66,64,68,60,79,70,Creative,Cybersecurity Analyst
+Civil,8.3,Business,Management,"Agile,Documentation,SQL",5,1,Yes,81,90,85,69,99,81,Coding,Business Analyst
+EEE,7.4,Security,Cryptography,"Linux,Networking,OWASP,SIEM,Statistics",0,1,No,71,61,61,72,65,77,Coding,Cybersecurity Analyst
+IT,8.3,Cloud,Computer Networks,"AWS,Docker,Linux,Networking,Terraform",2,3,No,73,83,82,63,62,63,Creative,Cloud Engineer
+Civil,7.2,Cloud,Computer Networks,"CI/CD,Docker,Git,Kubernetes,Linux",1,2,No,92,93,80,95,89,85,Management,DevOps Engineer
+IT,6.6,Data,Data Mining,"ML,Pandas,Python,SQL,Statistics",0,2,No,85,87,95,83,72,99,Management,Data Scientist
+ECE,8.2,AI,Python,"Deep Learning,Docker,ML,Python,SQL,Statistics",4,0,No,62,60,53,75,53,71,Analytical,Machine Learning Engineer
+EEE,6.9,Data,Statistics,"Excel,Git,Pandas,Python,SQL,Tableau",2,0,No,58,66,60,64,64,70,Creative,Data Analyst
+Mechanical,7.9,Mobile,Java,"Android,Git,Kotlin,REST",2,1,No,61,61,61,43,63,78,Management,Android Developer
+EEE,9.0,Business,Management,"Agile,Documentation,Excel,Linux,SQL",2,0,No,77,77,75,73,84,80,Management,Business Analyst
+ECE,6.7,Web,Computer Networks,"CSS,Docker,Git,HTML,JavaScript,Node,React,SQL",4,0,No,92,99,98,83,82,99,Coding,Full Stack Developer
+CSE,7.3,Cloud,Computer Networks,"AWS,Docker,Networking,Terraform",2,1,No,59,69,62,53,63,61,Analytical,Cloud Engineer
+Civil,7.8,Data,ML,"Excel,Git,Pandas,Python,SQL,Tableau",4,1,No,90,93,99,75,86,99,Management,Data Analyst
+IT,6.9,Mobile,Java,"Android,Git,Kotlin",4,1,Yes,62,64,74,49,67,74,Management,Android Developer
+EEE,6.8,Web,Web Technology,"API testing,Linux,SQL,Selenium,Testing",4,3,No,92,95,95,99,91,99,Management,QA/Test Engineer
+Mechanical,8.3,Mobile,Kotlin,"Android,Git,Kotlin,REST",1,2,No,79,86,67,76,66,77,Creative,Android Developer
+ECE,6.5,Data,ML,"ML,Pandas,Python,SQL,Statistics",0,0,Yes,55,54,62,50,41,82,Creative,Data Scientist
+EEE,6.6,Web,Web Technology,"API testing,Communication,SQL,Testing",1,2,No,60,62,48,72,49,77,Coding,QA/Test Engineer
+Civil,8.9,Cloud,Computer Networks,"AWS,Docker,Terraform",5,3,No,63,53,62,63,55,73,Creative,Cloud Engineer
+ECE,6.1,Web,JavaScript,"CSS,Excel,Git,HTML,JavaScript,Node,React,SQL",3,1,No,63,69,55,49,57,80,Creative,Full Stack Developer
+IT,7.9,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React",3,0,Yes,78,83,75,81,64,75,Creative,Frontend Developer
+Civil,6.9,Security,Cryptography,"Linux,Networking,OWASP,SIEM",0,2,No,64,66,62,71,70,58,Creative,Cybersecurity Analyst
+IT,8.2,Cloud,Computer Networks,"AWS,Docker,Terraform",4,1,No,83,88,82,76,76,98,Analytical,Cloud Engineer
+EEE,6.4,Data,Statistics,"Excel,Git,Pandas,Python,SQL,Tableau",2,0,No,62,65,88,59,53,87,Coding,Data Analyst
+Civil,7.3,Security,OS,"Linux,Networking,OWASP",1,1,No,55,45,53,44,49,59,Management,Cybersecurity Analyst
+CSE,8.8,Web,JavaScript,"CSS,Excel,Git,HTML,JavaScript,React",4,2,No,86,93,86,99,75,84,Analytical,Frontend Developer
+IT,6.1,Web,Web Technology,"CSS,Git,HTML,JavaScript,Node,React,SQL",1,1,Yes,73,77,76,63,82,85,Management,Full Stack Developer
+IT,9.2,Security,Cryptography,"Linux,Networking,OWASP,SIEM,Teamwork",0,2,No,77,68,85,78,69,83,Coding,Cybersecurity Analyst
+Mechanical,8.8,Design,UI Basics,"Figma,Prototyping,Research,Wireframes",2,3,No,60,50,57,81,58,58,Analytical,UI/UX Designer
+EEE,6.6,Design,Graphics,"Figma,Prototyping,Research,Wireframes",0,1,No,83,79,78,80,74,87,Creative,UI/UX Designer
+Mechanical,9.0,Cloud,Computer Networks,"CI/CD,Git,Kubernetes,Linux",1,2,No,82,82,76,96,74,85,Creative,DevOps Engineer
+Mechanical,6.9,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React",2,1,No,87,97,90,81,96,78,Creative,Frontend Developer
+Mechanical,9.4,Security,OS,"Linux,Networking,OWASP,SIEM",3,1,No,82,78,79,85,81,89,Analytical,Cybersecurity Analyst
+CSE,8.4,Mobile,Java,"Android,Git,Kotlin,REST",2,1,No,72,65,60,60,69,69,Management,Android Developer
+Civil,7.4,Cloud,Computer Networks,"CI/CD,Docker,Git,Kubernetes,Linux",1,2,No,92,93,90,92,83,84,Management,DevOps Engineer
+EEE,7.5,Cloud,OS,"CI/CD,Docker,Git,Kubernetes",3,0,No,59,52,58,53,54,55,Management,DevOps Engineer
+Mechanical,9.3,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",3,3,Yes,77,84,74,96,89,95,Management,Frontend Developer
+EEE,9.3,Mobile,Java,"Git,Kotlin,REST",0,2,No,66,74,55,55,67,76,Coding,Android Developer
+EEE,8.1,Design,UI Basics,"Docker,Prototyping,Research,Wireframes",4,2,No,77,79,73,85,81,97,Analytical,UI/UX Designer
+IT,7.7,Data,DBMS,"Linux,ML,Pandas,Python,SQL",3,0,No,94,84,98,84,89,99,Analytical,Data Scientist
+Civil,8.0,Cloud,Computer Networks,"AWS,Communication,Docker,Networking,Terraform",1,3,No,95,99,93,99,92,97,Management,Cloud Engineer
+IT,7.2,Business,DBMS,"Agile,Communication,Documentation,Excel,SQL",5,2,No,93,92,85,99,99,91,Creative,Business Analyst
+EEE,6.3,Web,JavaScript,"CSS,Git,HTML,JavaScript,React",5,3,Yes,79,75,69,99,73,95,Coding,Frontend Developer
+CSE,8.1,Data,Statistics,"ML,Pandas,Python,SQL,Statistics",4,3,Yes,60,66,71,66,49,75,Analytical,Data Scientist
+CSE,7.4,AI,Python,"Deep Learning,Docker,ML,Python,SQL",3,3,No,72,66,72,75,66,76,Analytical,Machine Learning Engineer
+IT,8.1,Design,UI Basics,"Figma,Prototyping,Wireframes",1,1,No,95,90,99,84,99,99,Analytical,UI/UX Designer
+ECE,7.7,Cloud,Computer Networks,"CI/CD,Docker,Kubernetes,Linux",0,0,No,71,64,76,77,65,81,Coding,DevOps Engineer
+Mechanical,7.8,Design,UI Basics,"Docker,Figma,Prototyping,Wireframes",3,2,Yes,64,65,65,76,57,81,Management,UI/UX Designer
+Civil,8.9,AI,Python,"Deep Learning,Docker,Linux,ML,Python,SQL",3,3,No,92,89,99,78,93,90,Management,Machine Learning Engineer
+ECE,8.3,Web,Web Technology,"CSS,Git,HTML,Node,React,SQL",3,3,Yes,71,80,83,69,78,75,Analytical,Full Stack Developer
+CSE,7.1,Business,DBMS,"Agile,Documentation,Excel,SQL",3,1,Yes,72,80,77,60,73,86,Analytical,Business Analyst
+Civil,6.4,AI,Deep Learning,"Deep Learning,Docker,Linux,ML,Python,SQL",5,1,No,95,99,83,96,93,99,Creative,Machine Learning Engineer
+Mechanical,6.1,Design,HCI,"Figma,Research,Wireframes",4,0,Yes,69,79,74,89,60,65,Analytical,UI/UX Designer
+Mechanical,7.4,Web,Computer Networks,"CSS,Git,HTML,JavaScript,Node,React",1,2,No,58,61,66,61,51,51,Coding,Full Stack Developer
+IT,9.1,Security,Network Security,"Linux,Networking,OWASP,SIEM",0,0,Yes,84,93,92,73,92,99,Analytical,Cybersecurity Analyst
+EEE,7.4,Data,DBMS,"Excel,Pandas,Python,SQL,Tableau",1,1,No,65,60,64,64,59,64,Management,Data Analyst
+EEE,8.9,Security,Cryptography,"Communication,Linux,Networking,OWASP",0,1,Yes,83,79,87,66,93,88,Analytical,Cybersecurity Analyst
+ECE,6.2,Web,Web Technology,"API testing,SQL,Selenium,Testing",2,2,No,73,68,69,71,74,73,Management,QA/Test Engineer
+EEE,7.4,Cloud,Cloud Computing,"AWS,Docker,Networking",5,3,Yes,95,91,92,99,93,85,Analytical,Cloud Engineer
+Civil,6.7,Web,Computer Networks,"Excel,Git,Linux,Python,REST",1,0,No,83,82,93,95,77,74,Analytical,Backend Developer
+EEE,7.8,Security,OS,"Communication,Linux,Networking,OWASP,SIEM",4,0,No,67,58,71,78,69,86,Creative,Cybersecurity Analyst
+Civil,7.5,Web,Web Technology,"API testing,Excel,SQL,Selenium,Testing",3,1,No,92,86,99,95,99,99,Management,QA/Test Engineer
+ECE,7.7,Web,Web Technology,"CSS,Docker,Git,HTML,JavaScript,Node,React",4,2,Yes,93,84,96,91,99,99,Analytical,Full Stack Developer
+Mechanical,9.3,Security,Cryptography,"Linux,OWASP,SIEM",2,1,No,64,68,57,49,62,63,Coding,Cybersecurity Analyst
+EEE,6.4,Web,Web Technology,"Git,Linux,Python,SQL",2,3,No,81,79,89,69,92,86,Management,Backend Developer
+Civil,7.1,Data,Data Mining,"Excel,Pandas,Python,SQL,Tableau",3,0,No,93,94,99,99,95,99,Management,Data Analyst
+IT,6.3,Data,ML,"ML,Pandas,Python,SQL,Statistics",1,0,No,55,45,64,42,49,72,Management,Data Scientist
+EEE,8.3,Web,Computer Networks,"API testing,SQL,Selenium,Testing",3,2,No,67,69,64,54,53,74,Coding,QA/Test Engineer
+ECE,8.8,Data,DBMS,"Excel,Pandas,Python,SQL,Tableau",5,1,No,75,73,86,63,62,70,Coding,Data Analyst
+ECE,7.5,Cloud,OS,"CI/CD,Docker,Git,Kubernetes,Linux",1,1,No,79,87,76,96,79,70,Coding,DevOps Engineer
+EEE,8.2,Mobile,Kotlin,"Android,Git,Kotlin,REST",5,1,Yes,95,95,93,78,99,96,Creative,Android Developer
+EEE,9.4,Web,Computer Networks,"CSS,Git,HTML,JavaScript,React",1,3,No,88,91,96,99,92,99,Management,Frontend Developer
+Civil,6.9,Web,JavaScript,"API testing,SQL,Testing",3,0,No,82,76,83,69,69,73,Management,QA/Test Engineer
+ECE,8.2,AI,ML,"Deep Learning,Docker,Python,SQL",4,1,No,60,63,52,69,65,63,Management,Machine Learning Engineer
+CSE,9.0,Security,Network Security,"Linux,Networking,OWASP,SIEM",0,3,Yes,74,74,78,58,69,81,Analytical,Cybersecurity Analyst
+Civil,6.1,Web,Computer Networks,"API testing,SQL,Selenium,Testing",4,0,Yes,67,75,74,83,70,81,Creative,QA/Test Engineer
+CSE,8.6,Cloud,OS,"AWS,Docker,Statistics,Terraform",0,0,No,83,80,89,85,81,79,Coding,Cloud Engineer
+IT,8.8,Web,JavaScript,"CSS,Git,HTML,JavaScript,React",4,3,No,90,90,78,94,96,99,Coding,Frontend Developer
+Mechanical,6.0,Data,DBMS,"Excel,Pandas,Python,SQL,Tableau",5,2,Yes,89,89,99,84,99,96,Analytical,Data Analyst
+IT,7.9,Web,Web Technology,"CSS,Git,HTML,JavaScript,React",1,0,No,90,87,81,81,95,97,Creative,Frontend Developer
+Mechanical,8.2,Cloud,Computer Networks,"AWS,Docker,Networking,Terraform",2,2,No,72,76,63,70,77,80,Management,Cloud Engineer
+CSE,8.9,Web,Web Technology,"CSS,Docker,Git,HTML,JavaScript,Node,React,SQL",2,1,No,94,99,99,77,94,99,Coding,Full Stack Developer
+CSE,7.5,Web,Computer Networks,"API testing,SQL,Selenium,Teamwork,Testing",3,3,No,63,57,67,74,72,67,Management,QA/Test Engineer
+ECE,8.5,Web,JavaScript,"API testing,SQL,Selenium,Testing",5,2,No,65,70,72,60,59,77,Creative,QA/Test Engineer
+Civil,7.6,Web,Web Technology,"API testing,SQL,Selenium,Testing",0,3,No,90,83,93,99,90,83,Analytical,QA/Test Engineer
+Mechanical,7.0,Cloud,Cloud Computing,"CI/CD,Docker,Git,Kubernetes,Linux",2,0,No,63,69,58,52,66,76,Creative,DevOps Engineer
+EEE,7.1,Web,Web Technology,"CSS,Git,HTML,JavaScript,Node,React,SQL",4,2,No,94,99,97,88,99,91,Coding,Full Stack Developer
+IT,6.3,Web,Computer Networks,"API testing,Docker,SQL,Selenium",0,0,No,62,64,50,54,67,67,Management,QA/Test Engineer
+IT,8.4,Cloud,Computer Networks,"AWS,Docker,Terraform",0,2,No,68,59,69,66,63,77,Management,Cloud Engineer
+CSE,9.4,Web,Computer Networks,"CSS,Git,JavaScript,React",4,1,No,88,90,95,99,99,84,Analytical,Frontend Developer
+Civil,6.7,Web,JavaScript,"API testing,SQL,Selenium,Testing",2,0,Yes,90,95,79,75,85,99,Analytical,QA/Test Engineer
+Civil,8.2,Business,Economics,"Agile,Documentation,Excel,SQL,Statistics",4,0,No,56,49,58,71,57,64,Analytical,Business Analyst
+EEE,7.6,AI,Deep Learning,"Deep Learning,Docker,ML,Python",0,2,No,89,81,83,87,97,99,Creative,Machine Learning Engineer
+Mechanical,6.2,Web,Computer Networks,"Git,Linux,Python,REST,SQL",3,2,No,58,52,55,59,54,51,Analytical,Backend Developer
+Mechanical,8.9,Web,Web Technology,"Git,Linux,Python,REST,SQL",3,0,No,88,84,87,99,93,92,Creative,Backend Developer
+Civil,6.2,Business,Management,"Agile,Documentation,Excel,SQL",5,3,No,93,89,99,94,99,89,Management,Business Analyst
+Mechanical,8.0,Data,DBMS,"Excel,Pandas,Python,SQL,Statistics,Tableau",1,1,No,59,59,71,51,62,64,Management,Data Analyst
+Civil,6.4,Web,Computer Networks,"Git,Linux,Python,REST,SQL,Statistics",5,1,No,61,71,53,59,52,56,Analytical,Backend Developer
+Civil,9.3,Data,Data Mining,"Linux,ML,Pandas,Python,SQL,Statistics",0,3,No,63,65,83,46,68,74,Coding,Data Scientist

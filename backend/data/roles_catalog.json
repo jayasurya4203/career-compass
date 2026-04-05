@@ -1,0 +1,206 @@
+{
+  "careers": [
+    {
+      "role_name": "Frontend Developer",
+      "domain": "Web",
+      "required_skills": ["HTML", "CSS", "JavaScript", "React", "Git", "REST APIs", "Responsive Design"],
+      "preferred_subjects": ["Web Technology", "UI Design", "JavaScript"],
+      "ats_keywords": ["React", "JavaScript", "HTML", "CSS", "responsive", "frontend", "DOM", "API"],
+      "roadmap": {
+        "beginner": ["HTML semantics", "CSS basics", "Flexbox", "JavaScript fundamentals"],
+        "intermediate": ["Responsive design", "ES6+", "React components", "Hooks", "Fetch/APIs"],
+        "advanced": ["State management", "Performance", "Testing (Jest)", "TypeScript basics"],
+        "placement": ["3 portfolio projects", "GitHub profile", "Portfolio site", "Resume + LinkedIn"]
+      },
+      "avg_salary_inr": "6-12 LPA",
+      "demand_level": "High"
+    },
+    {
+      "role_name": "Backend Developer",
+      "domain": "Software",
+      "required_skills": ["Python or Java", "REST APIs", "SQL", "Git", "Authentication", "Linux basics", "Data Structures"],
+      "preferred_subjects": ["DBMS", "Operating Systems", "Algorithms"],
+      "ats_keywords": ["REST", "API", "SQL", "microservices", "backend", "Node", "Django", "Flask"],
+      "roadmap": {
+        "beginner": ["HTTP", "SQL", "One backend framework", "CRUD APIs"],
+        "intermediate": ["Auth/JWT", "ORM", "Caching", "Docker intro"],
+        "advanced": ["Scaling", "Message queues", "Observability"],
+        "placement": ["API project", "System design basics", "Open source contributions"]
+      },
+      "avg_salary_inr": "7-14 LPA",
+      "demand_level": "High"
+    },
+    {
+      "role_name": "Full Stack Developer",
+      "domain": "Web",
+      "required_skills": ["HTML", "CSS", "JavaScript", "React", "Node.js or Django", "SQL", "Git", "REST APIs"],
+      "preferred_subjects": ["Web Technology", "DBMS", "Software Engineering"],
+      "ats_keywords": ["full stack", "React", "Node", "MongoDB", "SQL", "REST"],
+      "roadmap": {
+        "beginner": ["Frontend basics", "Backend CRUD", "SQL"],
+        "intermediate": ["Auth end-to-end", "Deployment", "API design"],
+        "advanced": ["Microservices", "CI/CD", "Cloud deploy"],
+        "placement": ["Full stack app", "Portfolio", "Internship-style project"]
+      },
+      "avg_salary_inr": "8-16 LPA",
+      "demand_level": "Very High"
+    },
+    {
+      "role_name": "Data Analyst",
+      "domain": "Data",
+      "required_skills": ["SQL", "Excel", "Python", "Pandas", "Statistics", "Data Visualization", "Power BI or Tableau"],
+      "preferred_subjects": ["Statistics", "DBMS", "Data Mining"],
+      "ats_keywords": ["SQL", "dashboard", "Tableau", "Power BI", "ETL", "KPI", "Excel", "Pandas"],
+      "roadmap": {
+        "beginner": ["SQL joins", "Excel analytics", "Basic stats"],
+        "intermediate": ["Pandas", "Visualization", "Storytelling with data"],
+        "advanced": ["Advanced SQL", "Experimentation", "BI tools"],
+        "placement": ["2 dashboard projects", "Case studies", "Kaggle-style cleaning project"]
+      },
+      "avg_salary_inr": "5-10 LPA",
+      "demand_level": "High"
+    },
+    {
+      "role_name": "Data Scientist",
+      "domain": "Data",
+      "required_skills": ["Python", "Statistics", "Machine Learning", "Pandas", "SQL", "Visualization", "Feature Engineering"],
+      "preferred_subjects": ["ML", "Statistics", "Linear Algebra"],
+      "ats_keywords": ["machine learning", "regression", "classification", "scikit-learn", "pandas", "numpy"],
+      "roadmap": {
+        "beginner": ["Python", "Stats", "Pandas"],
+        "intermediate": ["Supervised ML", "Model evaluation", "SQL"],
+        "advanced": ["Unsupervised", "Time series", "ML ops basics"],
+        "placement": ["End-to-end ML project", "Notebooks on GitHub", "Blog/write-up"]
+      },
+      "avg_salary_inr": "8-18 LPA",
+      "demand_level": "High"
+    },
+    {
+      "role_name": "Machine Learning Engineer",
+      "domain": "AI",
+      "required_skills": ["Python", "ML Algorithms", "Deep Learning basics", "MLOps", "Docker", "Cloud", "SQL"],
+      "preferred_subjects": ["ML", "Deep Learning", "Algorithms"],
+      "ats_keywords": ["PyTorch", "TensorFlow", "model deployment", "MLflow", "Docker", "API serving"],
+      "roadmap": {
+        "beginner": ["ML fundamentals", "Scikit-learn", "Python"],
+        "intermediate": ["Neural nets", "CV/NLP intro", "Experiment tracking"],
+        "advanced": ["Serving models", "Monitoring", "Scaling"],
+        "placement": ["Deployed model API", "Kaggle rankings", "Paper reproduction mini-project"]
+      },
+      "avg_salary_inr": "10-22 LPA",
+      "demand_level": "Very High"
+    },
+    {
+      "role_name": "UI/UX Designer",
+      "domain": "Design",
+      "required_skills": ["Figma", "User Research", "Wireframing", "Prototyping", "Design Systems", "Accessibility"],
+      "preferred_subjects": ["Human Computer Interaction", "Design"],
+      "ats_keywords": ["Figma", "UX research", "wireframe", "prototype", "usability", "design system"],
+      "roadmap": {
+        "beginner": ["Design principles", "Figma basics", "Typography & color"],
+        "intermediate": ["User flows", "Usability testing", "Design systems"],
+        "advanced": ["Portfolio case studies", "Accessibility", "Design metrics"],
+        "placement": ["3 case studies", "Behance/Dribbble", "Redesign challenge"]
+      },
+      "avg_salary_inr": "5-11 LPA",
+      "demand_level": "Medium-High"
+    },
+    {
+      "role_name": "Cybersecurity Analyst",
+      "domain": "Security",
+      "required_skills": ["Networking", "Linux", "Security fundamentals", "SIEM basics", "Risk assessment", "Scripting"],
+      "preferred_subjects": ["Network Security", "Operating Systems"],
+      "ats_keywords": ["SIEM", "vulnerability", "SOC", "firewall", "incident response", "OWASP"],
+      "roadmap": {
+        "beginner": ["Networking", "Linux CLI", "Security+ concepts"],
+        "intermediate": ["Web app security", "Logs analysis", "CTF basics"],
+        "advanced": ["Blue team tools", "Cloud security intro"],
+        "placement": ["CTF writeups", "Home lab", "Cert (Security+) optional"]
+      },
+      "avg_salary_inr": "6-13 LPA",
+      "demand_level": "High"
+    },
+    {
+      "role_name": "Cloud Engineer",
+      "domain": "Cloud",
+      "required_skills": ["AWS or Azure", "Networking", "Linux", "IaC basics", "Containers", "Monitoring"],
+      "preferred_subjects": ["Cloud Computing", "Computer Networks"],
+      "ats_keywords": ["AWS", "Azure", "Terraform", "Kubernetes", "VPC", "CI/CD"],
+      "roadmap": {
+        "beginner": ["Cloud core services", "IAM", "Networking"],
+        "intermediate": ["Terraform", "CI/CD pipelines", "Containers"],
+        "advanced": ["Kubernetes", "Cost optimization", "Security"],
+        "placement": ["Certification path", "Multi-tier deploy project"]
+      },
+      "avg_salary_inr": "8-16 LPA",
+      "demand_level": "Very High"
+    },
+    {
+      "role_name": "DevOps Engineer",
+      "domain": "Platform",
+      "required_skills": ["Linux", "Docker", "Kubernetes", "CI/CD", "Git", "Scripting", "Monitoring"],
+      "preferred_subjects": ["Operating Systems", "Computer Networks"],
+      "ats_keywords": ["Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform", "Prometheus"],
+      "roadmap": {
+        "beginner": ["Linux", "Shell", "Git"],
+        "intermediate": ["Docker", "CI/CD", "Basic cloud"],
+        "advanced": ["Kubernetes", "IaC", "Observability"],
+        "placement": ["End-to-end pipeline project", "Blog on infra"]
+      },
+      "avg_salary_inr": "8-17 LPA",
+      "demand_level": "High"
+    },
+    {
+      "role_name": "QA/Test Engineer",
+      "domain": "Quality",
+      "required_skills": ["Testing fundamentals", "API testing", "Automation (Selenium/Playwright)", "CI basics", "SQL", "Bug tracking"],
+      "preferred_subjects": ["Software Engineering", "Software Testing"],
+      "ats_keywords": ["test cases", "automation", "Selenium", "API testing", "regression", "Jira"],
+      "roadmap": {
+        "beginner": ["Manual testing", "Test design", "API basics"],
+        "intermediate": ["Automation framework", "CI integration"],
+        "advanced": ["Performance testing intro", "Security testing basics"],
+        "placement": ["Automation suite project", "Open source test contributions"]
+      },
+      "avg_salary_inr": "5-10 LPA",
+      "demand_level": "Medium-High"
+    },
+    {
+      "role_name": "Business Analyst",
+      "domain": "Business",
+      "required_skills": ["Requirements gathering", "SQL basics", "Excel", "Documentation", "Process modeling", "Stakeholder communication"],
+      "preferred_subjects": ["Management", "DBMS", "Economics"],
+      "ats_keywords": ["BRD", "user stories", "stakeholder", "process mapping", "SQL", "Excel"],
+      "roadmap": {
+        "beginner": ["Excel", "Communication", "Basic SQL"],
+        "intermediate": ["User stories", "BPMN", "Agile basics"],
+        "advanced": ["Product discovery", "Metrics", "SQL analysis"],
+        "placement": ["Case study portfolio", "Cert (ECBA) optional"]
+      },
+      "avg_salary_inr": "6-12 LPA",
+      "demand_level": "Medium-High"
+    },
+    {
+      "role_name": "Android Developer",
+      "domain": "Mobile",
+      "required_skills": ["Kotlin", "Android SDK", "XML layouts", "Jetpack Compose basics", "Git", "REST APIs", "Material Design"],
+      "preferred_subjects": ["Mobile Computing", "Java/Kotlin"],
+      "ats_keywords": ["Kotlin", "Android", "Jetpack", "RecyclerView", "REST", "Play Store"],
+      "roadmap": {
+        "beginner": ["Kotlin", "Activities/Fragments", "Layouts"],
+        "intermediate": ["Architecture components", "Networking", "Local DB"],
+        "advanced": ["Compose", "Performance", "Play publishing"],
+        "placement": ["2 apps on GitHub", "Play internal testing track"]
+      },
+      "avg_salary_inr": "6-13 LPA",
+      "demand_level": "High"
+    }
+  ],
+  "trends_2026": [
+    {"title": "AI / ML Engineering", "demand": "↑", "note": "Strong growth in applied AI roles"},
+    {"title": "Data Analytics", "demand": "↑", "note": "Dashboarding & business intelligence"},
+    {"title": "Cloud & DevOps", "demand": "↑", "note": "Platform reliability & FinOps"},
+    {"title": "Cybersecurity", "demand": "↑", "note": "SOC and app security"},
+    {"title": "Full Stack Web", "demand": "Stable-High", "note": "Product teams hiring generalists"}
+  ]
+}
