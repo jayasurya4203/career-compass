@@ -1,0 +1,13 @@
+flask
+flask-cors
+flask-sqlalchemy
+mysql-connector-python
+scikit-learn
+pandas
+numpy
+PyPDF2
+python-dotenv
+bcrypt
+PyJWT
+google-generativeai
+werkzeug

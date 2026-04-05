@@ -1,0 +1,31 @@
+logical,verbal,quantitative,technical,coding,database,networking,security,ui_ux,career_role
+85,70,80,90,95,70,60,50,40,Software Developer
+60,80,70,50,40,30,20,10,95,UI/UX Designer
+75,65,85,90,80,90,50,40,30,Data Scientist
+50,70,60,85,40,60,95,85,20,Network Engineer
+90,60,95,80,70,40,30,90,10,Cyber Security Analyst
+40,95,50,60,30,20,10,10,80,Digital Marketer
+70,75,70,80,85,85,40,30,50,Backend Developer
+80,80,80,85,90,70,60,50,90,Full Stack Developer
+95,50,95,70,60,40,30,40,10,Data Analyst
+30,90,40,50,20,10,10,10,70,Content Writer
+88,72,82,91,96,71,61,51,41,Software Developer
+61,81,71,51,41,31,21,11,96,UI/UX Designer
+76,66,86,91,81,91,51,41,31,Data Scientist
+51,71,61,86,41,61,96,86,21,Network Engineer
+91,61,96,81,71,41,31,91,11,Cyber Security Analyst
+41,96,51,61,31,21,11,11,81,Digital Marketer
+71,76,71,81,86,86,41,31,51,Backend Developer
+81,81,81,86,91,71,61,51,91,Full Stack Developer
+96,51,96,71,61,41,31,41,11,Data Analyst
+31,91,41,51,21,11,11,11,71,Content Writer
+82,68,78,88,94,68,58,48,38,Software Developer
+58,78,68,48,38,28,18,8,94,UI/UX Designer
+74,64,84,88,78,88,48,38,28,Data Scientist
+48,68,58,84,38,58,94,84,18,Network Engineer
+88,58,94,78,68,38,28,88,8,Cyber Security Analyst
+38,94,48,58,28,18,8,8,78,Digital Marketer
+68,74,68,78,84,84,38,28,48,Backend Developer
+78,78,78,84,88,68,58,48,88,Full Stack Developer
+94,48,94,68,58,38,28,38,8,Data Analyst
+28,88,38,48,18,8,8,8,68,Content Writer
