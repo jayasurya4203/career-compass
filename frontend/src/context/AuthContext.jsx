@@ -3,6 +3,11 @@ import api, { loadStoredToken, setToken } from "../api";
 
 const AuthContext = createContext(null);
 
+function mapUser(u) {
+  if (!u) return null;
+  return { id: u.id, name: u.username, email: u.email };
+}
+
 export function AuthProvider({ children }) {
   const [student, setStudent] = useState(null);
   const [booting, setBooting] = useState(true);
@@ -12,9 +17,9 @@ export function AuthProvider({ children }) {
     (async () => {
       loadStoredToken();
       try {
-        const { data } = await api.get("/profile");
+        const { data } = await api.get("/auth/me");
         if (!cancelled && data?.id) {
-          setStudent({ id: data.id, name: data.profile?.name, email: data.profile?.email });
+          setStudent(mapUser(data));
         }
       } catch {
         if (!cancelled) setStudent(null);
@@ -28,16 +33,16 @@ export function AuthProvider({ children }) {
   }, []);
 
   const login = async (email, password) => {
-    const { data } = await api.post("/login", { email, password });
+    const { data } = await api.post("/auth/login", { email, password });
     setToken(data.token);
-    setStudent(data.student);
+    setStudent(mapUser(data.user));
     return data;
   };
 
   const register = async (payload) => {
-    const { data } = await api.post("/register", payload);
+    const { data } = await api.post("/auth/register", payload);
     setToken(data.token);
-    setStudent(data.student);
+    setStudent(mapUser(data.user));
     return data;
   };
 

@@ -5,7 +5,7 @@ import { useAuth } from "../context/AuthContext.jsx";
 export default function Register() {
   const { register } = useAuth();
   const nav = useNavigate();
-  const [name, setName] = useState("");
+  const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [err, setErr] = useState("");
@@ -14,7 +14,7 @@ export default function Register() {
     e.preventDefault();
     setErr("");
     try {
-      await register({ name, email, password });
+      await register({ username, email, password });
       nav("/app");
     } catch (ex) {
       setErr(ex.response?.data?.error || "Could not register.");
@@ -27,11 +27,11 @@ export default function Register() {
         <h1 className="font-display text-2xl font-semibold">Create your account</h1>
         {err && <p className="text-red-600 text-sm">{err}</p>}
         <div>
-          <label className="block text-sm text-slate-600 mb-1">Name</label>
+          <label className="block text-sm text-slate-600 mb-1">Username</label>
           <input
             className="w-full rounded-lg border border-slate-200 px-3 py-2"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
             required
           />
         </div>
