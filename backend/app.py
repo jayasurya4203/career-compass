@@ -12,6 +12,7 @@ from career_engine import (
     ats_score,
     career_trends,
     get_courses_projects_interview,
+    get_interview_prep_bundle,
     hybrid_career_recommendations,
     job_role_matches,
     learning_roadmap,
@@ -20,7 +21,9 @@ from career_engine import (
 )
 from config import Config, UPLOAD_FOLDER
 from database import db
-from models import AptitudeResult, CareerPredictionRow, ProgressTracking, Resume, SkillGapRow, Student
+from models import AptitudeResult, CareerPredictionRow, ProgressTracking, QuizAttempt, Resume, SkillGapRow, Student
+from quiz_service import ALLOWED_TYPES as QUIZ_MCQ_TYPES
+from quiz_service import sample_quiz, score_submission
 from resume_parser import extract_text_from_bytes, parse_resume_text
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -279,6 +282,91 @@ def aptitude_submit():
     )
 
 
+@app.route("/api/quiz/mcq/<quiz_type>", methods=["GET"])
+def quiz_mcq_get(quiz_type):
+    if quiz_type not in QUIZ_MCQ_TYPES:
+        return jsonify({"error": "Invalid quiz type"}), 400
+    sid = auth_student_id()
+    if not sid:
+        return jsonify({"error": "Unauthorized"}), 401
+    qs = sample_quiz(quiz_type, n=10)
+    return jsonify({"quiz_type": quiz_type, "questions": qs, "count": len(qs)})
+
+
+@app.route("/api/quiz/mcq/<quiz_type>/submit", methods=["POST"])
+def quiz_mcq_submit(quiz_type):
+    if quiz_type not in QUIZ_MCQ_TYPES:
+        return jsonify({"error": "Invalid quiz type"}), 400
+    sid = auth_student_id()
+    if not sid:
+        return jsonify({"error": "Unauthorized"}), 401
+    data = request.get_json(force=True, silent=True) or {}
+    answers = data.get("answers") or {}
+    if not isinstance(answers, dict):
+        return jsonify({"error": "answers must be an object"}), 400
+    scored = score_submission(quiz_type, answers)
+    if not scored:
+        return jsonify({"error": "Could not score — check question ids"}), 400
+    row = QuizAttempt(
+        student_id=sid,
+        quiz_type=quiz_type,
+        score_pct=scored["score_pct"],
+        correct=scored["correct"],
+        total=scored["total"],
+        detail_json=json.dumps(scored.get("details", [])),
+    )
+    db.session.add(row)
+    db.session.commit()
+    return jsonify({**scored, "quiz_type": quiz_type})
+
+
+@app.route("/api/quiz/summary", methods=["GET"])
+def quiz_summary():
+    sid = auth_student_id()
+    if not sid:
+        return jsonify({"error": "Unauthorized"}), 401
+    apt = (
+        AptitudeResult.query.filter_by(student_id=sid)
+        .order_by(AptitudeResult.created_at.desc())
+        .first()
+    )
+    aptitude_payload = None
+    if apt:
+        dom = {}
+        if apt.domain_scores:
+            try:
+                dom = json.loads(apt.domain_scores)
+            except json.JSONDecodeError:
+                dom = {}
+        aptitude_payload = {
+            "overall": apt.overall,
+            "domain_scores": dom,
+            "created_at": apt.created_at.isoformat(),
+        }
+    def latest_attempt(qt: str) -> dict | None:
+        r = (
+            QuizAttempt.query.filter_by(student_id=sid, quiz_type=qt)
+            .order_by(QuizAttempt.created_at.desc())
+            .first()
+        )
+        if not r:
+            return None
+        return {
+            "score_pct": r.score_pct,
+            "correct": r.correct,
+            "total": r.total,
+            "created_at": r.created_at.isoformat(),
+        }
+
+    return jsonify(
+        {
+            "aptitude": aptitude_payload,
+            "reasoning": latest_attempt("reasoning"),
+            "technical": latest_attempt("technical"),
+        }
+    )
+
+
 @app.route("/api/aptitude/result/<int:student_id>", methods=["GET"])
 def aptitude_result(student_id):
     sid = auth_student_id()
@@ -461,7 +549,12 @@ def job_match():
 @app.route("/api/courses/<path:role>", methods=["GET"])
 def courses(role):
     pack = get_courses_projects_interview(role)
-    return jsonify({"courses": pack.get("courses", [])})
+    return jsonify(
+        {
+            "courses": pack.get("courses", []),
+            "web_resources": pack.get("web_resources", []),
+        }
+    )
 
 
 @app.route("/api/projects/<path:role>", methods=["GET"])
@@ -472,8 +565,8 @@ def projects(role):
 
 @app.route("/api/interview/<path:role>", methods=["GET"])
 def interview(role):
-    pack = get_courses_projects_interview(role)
-    return jsonify({"topics": pack.get("interview_topics", [])})
+    bundle = get_interview_prep_bundle(role)
+    return jsonify(bundle)
 
 
 @app.route("/api/progress/update", methods=["POST"])

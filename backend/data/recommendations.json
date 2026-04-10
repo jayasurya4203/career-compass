@@ -1,151 +1,216 @@
 {
   "Frontend Developer": {
     "courses": [
-      {"title": "freeCodeCamp Responsive Web Design", "platform": "freeCodeCamp", "difficulty": "Beginner", "duration": "40h", "free": true},
-      {"title": "JavaScript Algorithms and Data Structures", "platform": "freeCodeCamp", "difficulty": "Intermediate", "duration": "50h", "free": true},
-      {"title": "React – Official Docs Beta", "platform": "react.dev", "difficulty": "Intermediate", "duration": "20h", "free": true}
+      {"title": "Responsive Web Design Certification", "platform": "freeCodeCamp", "difficulty": "Beginner", "duration": "40h", "free": true, "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"},
+      {"title": "JavaScript Algorithms and Data Structures", "platform": "freeCodeCamp", "difficulty": "Intermediate", "duration": "50h", "free": true, "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"},
+      {"title": "React — Learn React", "platform": "react.dev", "difficulty": "Intermediate", "duration": "20h", "free": true, "url": "https://react.dev/learn"}
     ],
     "projects": [
       {"title": "Portfolio website", "difficulty": "Beginner", "description": "Responsive personal site with projects section."},
       {"title": "Weather dashboard", "difficulty": "Intermediate", "description": "Fetch APIs, charts, and geolocation."},
       {"title": "E-commerce UI", "difficulty": "Intermediate", "description": "Product grid, cart state, checkout flow UI."}
     ],
-    "interview": ["JavaScript closures", "DOM events & delegation", "React hooks vs lifecycle", "CSS specificity", "REST vs GraphQL basics", "Accessibility (a11y)"]
+    "interview": ["JavaScript closures", "DOM events & delegation", "React hooks vs lifecycle", "CSS specificity", "REST vs GraphQL basics", "Accessibility (a11y)"],
+    "web_resources": [
+      {"title": "Traversy Media — React crash course (YouTube)", "url": "https://www.youtube.com/watch?v=w7ejDZ8SWv8", "type": "youtube"},
+      {"title": "Kevin Powell — CSS playlist", "url": "https://www.youtube.com/@KevinPowell", "type": "youtube"},
+      {"title": "MDN Web Docs — HTML, CSS, JS", "url": "https://developer.mozilla.org/en-US/docs/Web", "type": "docs"}
+    ]
   },
   "Backend Developer": {
     "courses": [
-      {"title": "Django/Flask official tutorials", "platform": "Docs", "difficulty": "Beginner", "duration": "15h", "free": true},
-      {"title": "SQL for Data Analysis (Mode)", "platform": "Mode", "difficulty": "Beginner", "duration": "12h", "free": true},
-      {"title": "Docker intro", "platform": "Docker docs", "difficulty": "Intermediate", "duration": "8h", "free": true}
+      {"title": "Flask Quickstart", "platform": "Flask docs", "difficulty": "Beginner", "duration": "8h", "free": true, "url": "https://flask.palletsprojects.com/en/stable/quickstart/"},
+      {"title": "SQL Tutorial — Mode Analytics", "platform": "Mode", "difficulty": "Beginner", "duration": "12h", "free": true, "url": "https://mode.com/sql-tutorial/"},
+      {"title": "Docker overview & get started", "platform": "Docker docs", "difficulty": "Intermediate", "duration": "8h", "free": true, "url": "https://docs.docker.com/get-started/"}
     ],
     "projects": [
       {"title": "REST API with auth", "difficulty": "Intermediate", "description": "JWT, roles, CRUD, tests."},
       {"title": "Rate-limited public API", "difficulty": "Intermediate", "description": "Caching + throttling."}
     ],
-    "interview": ["REST design", "Normalization vs denormalization", "Auth flows", "Idempotency", "N+1 queries", "Horizontal scaling basics"]
+    "interview": ["REST design", "Normalization vs denormalization", "Auth flows", "Idempotency", "N+1 queries", "Horizontal scaling basics"],
+    "web_resources": [
+      {"title": "freeCodeCamp — Python for backend (YouTube)", "url": "https://www.youtube.com/results?search_query=freecodecamp+python+backend", "type": "youtube"},
+      {"title": "LinkedIn Learning — Learning REST APIs", "url": "https://www.linkedin.com/learning/topics/api-development", "type": "linkedin"},
+      {"title": "PostgreSQL documentation", "url": "https://www.postgresql.org/docs/", "type": "docs"}
+    ]
   },
   "Full Stack Developer": {
     "courses": [
-      {"title": "The Odin Project – Full Stack JS", "platform": "Odin", "difficulty": "Beginner-Intermediate", "duration": "100h+", "free": true},
-      {"title": "Node.js best practices", "platform": "GitHub", "difficulty": "Intermediate", "duration": "10h", "free": true}
+      {"title": "The Odin Project — Full Stack JavaScript", "platform": "Odin", "difficulty": "Beginner-Intermediate", "duration": "100h+", "free": true, "url": "https://www.theodinproject.com/paths/full-stack-javascript"},
+      {"title": "Node.js best practices", "platform": "GitHub", "difficulty": "Intermediate", "duration": "10h", "free": true, "url": "https://github.com/goldbergyoni/nodebestpractices"}
     ],
     "projects": [
       {"title": "SaaS-style app", "difficulty": "Advanced", "description": "Billing stub, auth, dashboard."},
       {"title": "Realtime chat", "difficulty": "Intermediate", "description": "WebSockets or Firebase."}
     ],
-    "interview": ["System design basics", "Session vs JWT", "DB transactions", "Frontend performance", "Deployment pipeline"]
+    "interview": ["System design basics", "Session vs JWT", "DB transactions", "Frontend performance", "Deployment pipeline"],
+    "web_resources": [
+      {"title": "Fireship — 100+ web development concepts", "url": "https://www.youtube.com/watch?v=erEgov9eM74", "type": "youtube"},
+      {"title": "LinkedIn Learning — Full-Stack Web Development", "url": "https://www.linkedin.com/learning/paths/become-a-full-stack-web-developer", "type": "linkedin"},
+      {"title": "Full Stack Open (University of Helsinki)", "url": "https://fullstackopen.com/en/", "type": "course"}
+    ]
   },
   "Data Analyst": {
     "courses": [
-      {"title": "SQL for Data Analysis", "platform": "YouTube / Mode", "difficulty": "Beginner", "duration": "15h", "free": true},
-      {"title": "Excel – Advanced formulas", "platform": "Microsoft Learn", "difficulty": "Beginner", "duration": "10h", "free": true},
-      {"title": "Power BI / Tableau fundamentals", "platform": "Microsoft / Tableau", "difficulty": "Intermediate", "duration": "12h", "free": true},
-      {"title": "Pandas tutorial", "platform": "Kaggle Learn", "difficulty": "Beginner", "duration": "6h", "free": true}
+      {"title": "Mode SQL Tutorial", "platform": "Mode", "difficulty": "Beginner", "duration": "15h", "free": true, "url": "https://mode.com/sql-tutorial/"},
+      {"title": "Microsoft Excel video training", "platform": "Microsoft Support", "difficulty": "Beginner", "duration": "10h", "free": true, "url": "https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b6-d9d584c7f42f"},
+      {"title": "Microsoft Learn — Power BI", "platform": "Microsoft Learn", "difficulty": "Intermediate", "duration": "12h", "free": true, "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi"},
+      {"title": "Kaggle — Pandas micro-course", "platform": "Kaggle Learn", "difficulty": "Beginner", "duration": "6h", "free": true, "url": "https://www.kaggle.com/learn/pandas"}
     ],
     "projects": [
       {"title": "Sales dashboard", "difficulty": "Intermediate", "description": "KPIs, slicers, storytelling."},
       {"title": "Student performance analysis", "difficulty": "Beginner", "description": "Cleaning + cohort trends."},
       {"title": "E-commerce insights", "difficulty": "Intermediate", "description": "RFM or funnel analysis."}
     ],
-    "interview": ["SQL joins & window functions", "Handling nulls", "KPI definition", "Bias in metrics", "A/B testing intuition", "Data cleaning steps"]
+    "interview": ["SQL joins & window functions", "Handling nulls", "KPI definition", "Bias in metrics", "A/B testing intuition", "Data cleaning steps"],
+    "web_resources": [
+      {"title": "Alex The Analyst — SQL for beginners (YouTube)", "url": "https://www.youtube.com/watch?v=p3qvj9hOFBo", "type": "youtube"},
+      {"title": "LinkedIn Learning — Excel Essential Training", "url": "https://www.linkedin.com/learning/excel-essential-training-microsoft-365-22851280", "type": "linkedin"},
+      {"title": "Tableau Public — gallery & inspiration", "url": "https://public.tableau.com/app/discover", "type": "article"}
+    ]
   },
   "Data Scientist": {
     "courses": [
-      {"title": "Andrew Ng ML Course", "platform": "Coursera", "difficulty": "Beginner", "duration": "60h", "free": false},
-      {"title": "Fast.ai Practical Deep Learning", "platform": "fast.ai", "difficulty": "Intermediate", "duration": "40h", "free": true}
+      {"title": "Machine Learning Specialization (Andrew Ng)", "platform": "Coursera", "difficulty": "Beginner", "duration": "60h", "free": false, "url": "https://www.coursera.org/specializations/machine-learning-introduction"},
+      {"title": "Practical Deep Learning for Coders", "platform": "fast.ai", "difficulty": "Intermediate", "duration": "40h", "free": true, "url": "https://course.fast.ai/"}
     ],
     "projects": [
       {"title": "End-to-end classification", "difficulty": "Intermediate", "description": "Churn or spam with evaluation."},
       {"title": "Time series forecasting", "difficulty": "Intermediate", "description": "Retail or energy dataset."}
     ],
-    "interview": ["Bias-variance", "Cross-validation", "Feature importance", "Imbalanced data", "Regularization", "Metric choice"]
+    "interview": ["Bias-variance", "Cross-validation", "Feature importance", "Imbalanced data", "Regularization", "Metric choice"],
+    "web_resources": [
+      {"title": "StatQuest — Machine Learning explained", "url": "https://www.youtube.com/c/joshstarmer", "type": "youtube"},
+      {"title": "LinkedIn Learning — Python for Data Science", "url": "https://www.linkedin.com/learning/topics/data-science", "type": "linkedin"},
+      {"title": "scikit-learn user guide", "url": "https://scikit-learn.org/stable/user_guide.html", "type": "docs"}
+    ]
   },
   "Machine Learning Engineer": {
     "courses": [
-      {"title": "Full Stack Deep Learning", "platform": "Course site", "difficulty": "Advanced", "duration": "30h", "free": true},
-      {"title": "Made With ML – MLOps", "platform": "madewithml.com", "difficulty": "Intermediate", "duration": "25h", "free": true}
+      {"title": "Full Stack Deep Learning", "platform": "FSDL", "difficulty": "Advanced", "duration": "30h", "free": true, "url": "https://fullstackdeeplearning.com/"},
+      {"title": "Made With ML — MLOps", "platform": "madewithml.com", "difficulty": "Intermediate", "duration": "25h", "free": true, "url": "https://madewithml.com/"}
     ],
     "projects": [
       {"title": "Model serving with FastAPI", "difficulty": "Intermediate", "description": "Docker + load test."},
       {"title": "Experiment tracking", "difficulty": "Intermediate", "description": "MLflow runs + registry."}
     ],
-    "interview": ["Training vs inference tradeoffs", "Drift", "Batch vs online", "GPU basics", "Containerizing models"]
+    "interview": ["Training vs inference tradeoffs", "Drift", "Batch vs online", "GPU basics", "Containerizing models"],
+    "web_resources": [
+      {"title": "Weights & Biases — ML experiment tracking (YouTube)", "url": "https://www.youtube.com/c/WeightsBiases", "type": "youtube"},
+      {"title": "LinkedIn Learning — MLOps foundations", "url": "https://www.linkedin.com/learning/topics/mlops", "type": "linkedin"},
+      {"title": "MLflow documentation", "url": "https://mlflow.org/docs/latest/index.html", "type": "docs"}
+    ]
   },
   "UI/UX Designer": {
     "courses": [
-      {"title": "Google UX Design Certificate (audit)", "platform": "Coursera", "difficulty": "Beginner", "duration": "120h", "free": false},
-      {"title": "Figma tutorials", "platform": "YouTube", "difficulty": "Beginner", "duration": "10h", "free": true}
+      {"title": "Google UX Design Professional Certificate", "platform": "Coursera", "difficulty": "Beginner", "duration": "120h", "free": false, "url": "https://www.coursera.org/professional-certificates/google-ux-design"},
+      {"title": "Figma for beginners — Learn Design", "platform": "YouTube / Figma", "difficulty": "Beginner", "duration": "10h", "free": true, "url": "https://www.youtube.com/figma"}
     ],
     "projects": [
       {"title": "Mobile banking redesign", "difficulty": "Intermediate", "description": "Research + hi-fi prototype."},
       {"title": "Design system starter", "difficulty": "Advanced", "description": "Components + documentation."}
     ],
-    "interview": ["User research methods", "Heuristics", "Accessibility", "How you prioritize", "Design critique"]
+    "interview": ["User research methods", "Heuristics", "Accessibility", "How you prioritize", "Design critique"],
+    "web_resources": [
+      {"title": "Figma Learn — official tutorials", "url": "https://www.figma.com/resources/learn-design/", "type": "course"},
+      {"title": "LinkedIn Learning — UX Design courses", "url": "https://www.linkedin.com/learning/topics/user-experience", "type": "linkedin"},
+      {"title": "Nielsen Norman Group — UX articles", "url": "https://www.nngroup.com/articles/", "type": "article"}
+    ]
   },
   "Cybersecurity Analyst": {
     "courses": [
-      {"title": "Cybrary SOC Analyst path", "platform": "Cybrary", "difficulty": "Beginner", "duration": "20h", "free": true},
-      {"title": "OWASP Top 10", "platform": "OWASP", "difficulty": "Intermediate", "duration": "8h", "free": true}
+      {"title": "Cybrary — cybersecurity training", "platform": "Cybrary", "difficulty": "Beginner", "duration": "20h", "free": true, "url": "https://www.cybrary.it/"},
+      {"title": "OWASP Top 10", "platform": "OWASP", "difficulty": "Intermediate", "duration": "8h", "free": true, "url": "https://owasp.org/www-project-top-ten/"}
     ],
     "projects": [
       {"title": "Home lab SIEM", "difficulty": "Advanced", "description": "Wazuh/ELK ingest logs."},
       {"title": "Vulnerability report", "difficulty": "Beginner", "description": "DVWA findings write-up."}
     ],
-    "interview": ["CIA triad", "Phishing indicators", "Incident steps", "Firewall vs WAF", "OWASP categories"]
+    "interview": ["CIA triad", "Phishing indicators", "Incident steps", "Firewall vs WAF", "OWASP categories"],
+    "web_resources": [
+      {"title": "Professor Messer — Security+ (YouTube)", "url": "https://www.youtube.com/user/professormesser", "type": "youtube"},
+      {"title": "LinkedIn Learning — Cybersecurity foundations", "url": "https://www.linkedin.com/learning/topics/cybersecurity", "type": "linkedin"},
+      {"title": "CISA — cybersecurity resources", "url": "https://www.cisa.gov/topics/cybersecurity-best-practices", "type": "article"}
+    ]
   },
   "Cloud Engineer": {
     "courses": [
-      {"title": "AWS Skill Builder – Cloud Practitioner", "platform": "AWS", "difficulty": "Beginner", "duration": "15h", "free": true},
-      {"title": "Azure Fundamentals", "platform": "Microsoft Learn", "difficulty": "Beginner", "duration": "12h", "free": true}
+      {"title": "AWS Skill Builder", "platform": "AWS", "difficulty": "Beginner", "duration": "15h", "free": true, "url": "https://skillbuilder.aws/"},
+      {"title": "Azure fundamentals learning path", "platform": "Microsoft Learn", "difficulty": "Beginner", "duration": "12h", "free": true, "url": "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-cloud-concepts/"}
     ],
     "projects": [
       {"title": "3-tier on cloud", "difficulty": "Intermediate", "description": "VPC, RDS, ALB, autoscaling."},
       {"title": "Serverless image API", "difficulty": "Intermediate", "description": "Lambda + S3 triggers."}
     ],
-    "interview": ["IAM policies", "VPC peering", "S3 tiers", "Disaster recovery", "Cost controls"]
+    "interview": ["IAM policies", "VPC peering", "S3 tiers", "Disaster recovery", "Cost controls"],
+    "web_resources": [
+      {"title": "AWS Events — official channel (YouTube)", "url": "https://www.youtube.com/user/AmazonWebServices", "type": "youtube"},
+      {"title": "LinkedIn Learning — AWS & Azure essentials", "url": "https://www.linkedin.com/learning/topics/amazon-web-services", "type": "linkedin"},
+      {"title": "Google Cloud Skills Boost", "url": "https://www.cloudskillsboost.google/", "type": "course"}
+    ]
   },
   "DevOps Engineer": {
     "courses": [
-      {"title": "Kubernetes basics", "platform": "Kubernetes.io", "difficulty": "Intermediate", "duration": "20h", "free": true},
-      {"title": "GitHub Actions docs", "platform": "GitHub", "difficulty": "Beginner", "duration": "8h", "free": true}
+      {"title": "Kubernetes Basics", "platform": "Kubernetes.io", "difficulty": "Intermediate", "duration": "20h", "free": true, "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/"},
+      {"title": "GitHub Actions documentation", "platform": "GitHub", "difficulty": "Beginner", "duration": "8h", "free": true, "url": "https://docs.github.com/en/actions"}
     ],
     "projects": [
       {"title": "CI/CD for sample app", "difficulty": "Intermediate", "description": "Test, build, deploy to VM/k8s."},
       {"title": "Monitoring stack", "difficulty": "Advanced", "description": "Prometheus + Grafana."}
     ],
-    "interview": ["Blue-green vs canary", "Immutable infra", "Secrets management", "SLI/SLO", "Container vs VM"]
+    "interview": ["Blue-green vs canary", "Immutable infra", "Secrets management", "SLI/SLO", "Container vs VM"],
+    "web_resources": [
+      {"title": "TechWorld with Nana — DevOps bootcamp (YouTube)", "url": "https://www.youtube.com/@TechWorldwithNana", "type": "youtube"},
+      {"title": "LinkedIn Learning — DevOps foundations", "url": "https://www.linkedin.com/learning/topics/devops", "type": "linkedin"},
+      {"title": "Terraform documentation", "url": "https://developer.hashicorp.com/terraform/docs", "type": "docs"}
+    ]
   },
   "QA/Test Engineer": {
     "courses": [
-      {"title": "Test Automation University", "platform": "Applitools", "difficulty": "Beginner", "duration": "25h", "free": true},
-      {"title": "Postman API testing", "platform": "Postman Learning", "difficulty": "Beginner", "duration": "6h", "free": true}
+      {"title": "Test Automation University", "platform": "Applitools", "difficulty": "Beginner", "duration": "25h", "free": true, "url": "https://testautomationu.applitools.com/"},
+      {"title": "Postman API testing learning center", "platform": "Postman", "difficulty": "Beginner", "duration": "6h", "free": true, "url": "https://learning.postman.com/"}
     ],
     "projects": [
       {"title": "E2E suite for demo app", "difficulty": "Intermediate", "description": "Playwright + CI."},
       {"title": "API contract tests", "difficulty": "Intermediate", "description": "Schema validation + Newman."}
     ],
-    "interview": ["Equivalence partitioning", "Flaky tests", "Shift-left", "Regression strategy", "Bug report quality"]
+    "interview": ["Equivalence partitioning", "Flaky tests", "Shift-left", "Regression strategy", "Bug report quality"],
+    "web_resources": [
+      {"title": "Automation Step by Step — Selenium & API (YouTube)", "url": "https://www.youtube.com/@RaghavPal", "type": "youtube"},
+      {"title": "LinkedIn Learning — Software testing", "url": "https://www.linkedin.com/learning/topics/software-testing", "type": "linkedin"},
+      {"title": "Playwright documentation", "url": "https://playwright.dev/docs/intro", "type": "docs"}
+    ]
   },
   "Business Analyst": {
     "courses": [
-      {"title": "Agile fundamentals", "platform": "Scrum.org resources", "difficulty": "Beginner", "duration": "10h", "free": true},
-      {"title": "SQL for BA", "platform": "YouTube", "difficulty": "Beginner", "duration": "8h", "free": true}
+      {"title": "Scrum Guide & resources", "platform": "Scrum.org", "difficulty": "Beginner", "duration": "10h", "free": true, "url": "https://www.scrum.org/resources"},
+      {"title": "SQL for Data Analysis — Mode", "platform": "Mode", "difficulty": "Beginner", "duration": "8h", "free": true, "url": "https://mode.com/sql-tutorial/"}
     ],
     "projects": [
       {"title": "BRD for fictional product", "difficulty": "Beginner", "description": "Scope, risks, KPIs."},
       {"title": "Process improvement case", "difficulty": "Intermediate", "description": "As-is/to-be + metrics."}
     ],
-    "interview": ["User story INVEST", "Acceptance criteria", "Stakeholder conflict", "Prioritization frameworks", "SQL for ad-hoc analysis"]
+    "interview": ["User story INVEST", "Acceptance criteria", "Stakeholder conflict", "Prioritization frameworks", "SQL for ad-hoc analysis"],
+    "web_resources": [
+      {"title": "BA Times — business analysis articles", "url": "https://www.batimes.com/", "type": "article"},
+      {"title": "LinkedIn Learning — Business analysis foundations", "url": "https://www.linkedin.com/learning/topics/business-analysis", "type": "linkedin"},
+      {"title": "IIBA — Business analysis body of knowledge overview", "url": "https://www.iiba.org/career-resources/a-business-analysis-profession/", "type": "article"}
+    ]
   },
   "Android Developer": {
     "courses": [
-      {"title": "Android Basics with Compose", "platform": "Google", "difficulty": "Beginner", "duration": "30h", "free": true},
-      {"title": "Kotlin Koans", "platform": "JetBrains", "difficulty": "Beginner", "duration": "6h", "free": true}
+      {"title": "Android Basics with Compose", "platform": "Google Android", "difficulty": "Beginner", "duration": "30h", "free": true, "url": "https://developer.android.com/courses/android-basics-compose/course"},
+      {"title": "Kotlin Koans", "platform": "JetBrains", "difficulty": "Beginner", "duration": "6h", "free": true, "url": "https://play.kotlinlang.org/koans/overview"}
     ],
     "projects": [
       {"title": "Notes app with Room", "difficulty": "Intermediate", "description": "CRUD + offline."},
       {"title": "GitHub client", "difficulty": "Intermediate", "description": "REST + pagination."}
     ],
-    "interview": ["Activity vs Fragment", "ViewModel", "Coroutines", "RecyclerView performance", "App lifecycle"]
+    "interview": ["Activity vs Fragment", "ViewModel", "Coroutines", "RecyclerView performance", "App lifecycle"],
+    "web_resources": [
+      {"title": "Philipp Lackner — Android & Kotlin (YouTube)", "url": "https://www.youtube.com/c/PhilippLackner", "type": "youtube"},
+      {"title": "LinkedIn Learning — Android development", "url": "https://www.linkedin.com/learning/topics/android-development", "type": "linkedin"},
+      {"title": "Android developer documentation", "url": "https://developer.android.com/docs", "type": "docs"}
+    ]
   }
 }

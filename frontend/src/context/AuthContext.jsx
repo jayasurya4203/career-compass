@@ -3,9 +3,9 @@ import api, { loadStoredToken, setToken } from "../api";
 
 const AuthContext = createContext(null);
 
-function mapUser(u) {
-  if (!u) return null;
-  return { id: u.id, name: u.username, email: u.email };
+function mapStudent(s) {
+  if (!s) return null;
+  return { id: s.id, name: s.name, email: s.email };
 }
 
 export function AuthProvider({ children }) {
@@ -17,9 +17,13 @@ export function AuthProvider({ children }) {
     (async () => {
       loadStoredToken();
       try {
-        const { data } = await api.get("/auth/me");
-        if (!cancelled && data?.id) {
-          setStudent(mapUser(data));
+        const { data } = await api.get("/profile");
+        if (!cancelled && data?.id && data?.profile) {
+          setStudent({
+            id: data.id,
+            name: data.profile.name,
+            email: data.profile.email,
+          });
         }
       } catch {
         if (!cancelled) setStudent(null);
@@ -33,16 +37,20 @@ export function AuthProvider({ children }) {
   }, []);
 
   const login = async (email, password) => {
-    const { data } = await api.post("/auth/login", { email, password });
+    const { data } = await api.post("/login", { email, password });
     setToken(data.token);
-    setStudent(mapUser(data.user));
+    setStudent(mapStudent(data.student));
     return data;
   };
 
-  const register = async (payload) => {
-    const { data } = await api.post("/auth/register", payload);
+  const register = async ({ username, email, password }) => {
+    const { data } = await api.post("/register", {
+      email,
+      password,
+      name: (username || "").trim() || "Student",
+    });
     setToken(data.token);
-    setStudent(mapUser(data.user));
+    setStudent(mapStudent(data.student));
     return data;
   };
 

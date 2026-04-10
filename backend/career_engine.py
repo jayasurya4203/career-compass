@@ -14,10 +14,12 @@ from config import MODEL_PATH
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ROLES_PATH = os.path.join(BASE_DIR, "data", "roles_catalog.json")
 REC_PATH = os.path.join(BASE_DIR, "data", "recommendations.json")
+INTERVIEW_DRILLS_PATH = os.path.join(BASE_DIR, "data", "interview_drills.json")
 
 _pipeline = None
 _roles = None
 _recommendations = None
+_interview_drills = None
 
 
 def _load_json(path: str) -> dict:
@@ -37,6 +39,22 @@ def load_recommendations():
     if _recommendations is None:
         _recommendations = _load_json(REC_PATH)
     return _recommendations
+
+
+def load_interview_drills():
+    global _interview_drills
+    if _interview_drills is None:
+        _interview_drills = _load_json(INTERVIEW_DRILLS_PATH)
+    return _interview_drills
+
+
+INTERVIEW_UNIVERSAL_TIPS = [
+    "Use STAR (Situation, Task, Action, Result) for behavioral answers — keep each under ~90 seconds.",
+    "Clarify the question and constraints before jumping into solutions; interviewers reward structured thinking.",
+    "Prepare 3 stories: conflict, leadership/influence, and a technical challenge with measurable outcome.",
+    "For coding/system rounds, think aloud: inputs, edge cases, complexity, then refine.",
+    "End with a sharp question about team, roadmap, or success metrics — shows ownership.",
+]
 
 
 def get_pipeline():
@@ -365,6 +383,23 @@ def get_courses_projects_interview(role_name: str) -> dict:
         "courses": pack.get("courses", []),
         "projects": pack.get("projects", []),
         "interview_topics": pack.get("interview", []),
+        "web_resources": pack.get("web_resources", []),
+    }
+
+
+def get_interview_prep_bundle(role_name: str) -> dict:
+    base = get_courses_projects_interview(role_name)
+    drills_map = load_interview_drills()
+    role_drills = drills_map.get(role_name) or []
+    default_drills = drills_map.get("default", [])
+    seen_q = {d.get("question") for d in role_drills if d.get("question")}
+    extras = [d for d in default_drills if d.get("question") and d["question"] not in seen_q]
+    merged_drills = (role_drills + extras)[:20]
+    return {
+        "role_name": role_name,
+        "topics": base.get("interview_topics", []),
+        "drills": merged_drills,
+        "tips": INTERVIEW_UNIVERSAL_TIPS,
     }
 
 

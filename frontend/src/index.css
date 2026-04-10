@@ -4,10 +4,66 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-slate-50 text-slate-900 antialiased;
+@layer base {
+  body {
+    @apply antialiased text-slate-800 dark:text-slate-100;
+    background: linear-gradient(165deg, #f8fafc 0%, #f1f5f9 40%, #eef2ff 100%);
+    min-height: 100vh;
+  }
+
+  .dark body {
+    background: linear-gradient(165deg, #0f172a 0%, #1e1b4b 45%, #0f172a 100%);
+  }
 }
 
-.glass {
-  @apply bg-white/80 backdrop-blur-md border border-slate-200/80 shadow-sm;
+@layer components {
+  .glass {
+    @apply bg-white/85 dark:bg-slate-900/80 backdrop-blur-md border border-white/60 dark:border-slate-700/80 rounded-2xl;
+    box-shadow:
+      0 1px 2px rgba(15, 23, 42, 0.04),
+      0 4px 16px rgba(79, 70, 229, 0.06);
+  }
+
+  .dark .glass {
+    box-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.35),
+      0 4px 20px rgba(99, 102, 241, 0.12);
+  }
+
+  .card-interactive {
+    @apply glass transition-all duration-200 ease-out hover:-translate-y-0.5;
+  }
+
+  .card-interactive:hover {
+    box-shadow:
+      0 4px 8px rgba(15, 23, 42, 0.06),
+      0 12px 32px rgba(79, 70, 229, 0.1);
+  }
+
+  .dark .card-interactive:hover {
+    box-shadow:
+      0 4px 12px rgba(0, 0, 0, 0.4),
+      0 12px 36px rgba(99, 102, 241, 0.18);
+    @apply border-brand-500/30;
+  }
+
+  .input-saas {
+    @apply w-full rounded-xl border border-slate-200/90 dark:border-slate-600 bg-white/90 dark:bg-slate-800/80 px-3.5 py-2.5 text-sm text-slate-800 dark:text-slate-100 shadow-sm transition focus:border-brand-400 dark:focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-500/20;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-brand-600 to-accent-600 px-4 py-2.5 text-sm font-semibold text-white shadow-md shadow-brand-500/25 transition hover:from-brand-700 hover:to-accent-700 hover:shadow-lg hover:shadow-brand-500/30 active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800/80 px-4 py-2.5 text-sm font-medium text-slate-700 dark:text-slate-200 shadow-sm transition hover:border-brand-200 dark:hover:border-brand-500/50 hover:bg-brand-50/50 dark:hover:bg-slate-700/60 active:scale-[0.98];
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-lg px-2 py-0.5 text-xs font-medium;
+  }
+
+  .page-gradient {
+    @apply min-h-screen bg-gradient-to-b from-slate-50 via-indigo-50/40 to-violet-50/50 dark:from-slate-950 dark:via-slate-900 dark:to-indigo-950/50;
+  }
 }

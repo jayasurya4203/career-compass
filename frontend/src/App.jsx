@@ -20,7 +20,17 @@ import Chat from "./pages/Chat.jsx";
 
 function RequireAuth({ children }) {
   const { student, booting } = useAuth();
-  if (booting) return null;
+  if (booting) {
+    return (
+      <div className="page-gradient min-h-screen flex flex-col items-center justify-center gap-4">
+        <div
+          className="h-11 w-11 rounded-full border-2 border-brand-200 dark:border-brand-800 border-t-brand-600 dark:border-t-brand-400 animate-spin"
+          aria-hidden
+        />
+        <p className="text-sm font-medium text-slate-600 dark:text-slate-400">Loading your workspace…</p>
+      </div>
+    );
+  }
   if (!student) return <Navigate to="/login" replace />;
   return children;
 }

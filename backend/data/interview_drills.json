@@ -1,0 +1,63 @@
+{
+  "default": [
+    {"question": "Tell me about yourself in 60 seconds.", "hint": "Present → skills → proof → what you want next. Tailor to the role.", "type": "behavioral", "difficulty": "Easy"},
+    {"question": "Why this role and why our company?", "hint": "2–3 concrete reasons: mission, product, tech stack, growth, values.", "type": "behavioral", "difficulty": "Easy"},
+    {"question": "Describe a time you failed and what you learned.", "hint": "STAR: small failure, ownership, metric of fix, lesson that changed behavior.", "type": "behavioral", "difficulty": "Medium"},
+    {"question": "How do you prioritize when everything is urgent?", "hint": "Impact × urgency, stakeholders, communicate trade-offs, document decisions.", "type": "behavioral", "difficulty": "Medium"}
+  ],
+  "Data Analyst": [
+    {"question": "Walk me through how you would validate a KPI before a leadership review.", "hint": "Define metric, data sources, edge cases, freshness, reconciliation, sample QA query.", "type": "technical", "difficulty": "Medium"},
+    {"question": "How do you explain a surprising dip in conversion to a non-technical stakeholder?", "hint": "Hypothesis, segments, confounders, next experiment, plain-language chart.", "type": "behavioral", "difficulty": "Medium"},
+    {"question": "SQL: difference between WHERE and HAVING with an example.", "hint": "WHERE filters rows before group; HAVING filters after GROUP BY aggregations.", "type": "technical", "difficulty": "Easy"}
+  ],
+  "Frontend Developer": [
+    {"question": "How would you improve perceived performance of a slow page?", "hint": "LCP/CLS, code split, lazy images, caching, skeletons, profile with DevTools.", "type": "technical", "difficulty": "Medium"},
+    {"question": "Explain accessibility issues with a modal dialog.", "hint": "Focus trap, aria attributes, escape key, return focus, color contrast.", "type": "technical", "difficulty": "Medium"},
+    {"question": "How do you manage state in a medium React app?", "hint": "Local vs lifted vs context vs URL; when to add Zustand/Redux; colocation.", "type": "technical", "difficulty": "Easy"}
+  ],
+  "Backend Developer": [
+    {"question": "Design a simple rate limiter for a public API.", "hint": "Token bucket vs fixed window; keys; Redis; headers; failure mode.", "type": "technical", "difficulty": "Hard"},
+    {"question": "How do you choose between JWT and server sessions?", "hint": "Scale, revocation, mobile, XSS vs CSRF trade-offs, rotation.", "type": "technical", "difficulty": "Medium"},
+    {"question": "What steps do you take before a database migration in production?", "hint": "Backup, backwards-compatible phases, feature flags, monitoring, rollback plan.", "type": "behavioral", "difficulty": "Medium"}
+  ],
+  "Data Scientist": [
+    {"question": "How do you detect and handle label noise?", "hint": "Inter-rater agreement, confident learning, robust loss, audit samples.", "type": "technical", "difficulty": "Hard"},
+    {"question": "Compare precision and recall for a fraud model.", "hint": "Trade-off; cost of FN vs FP; threshold tuning; business metric.", "type": "technical", "difficulty": "Easy"}
+  ],
+  "Machine Learning Engineer": [
+    {"question": "Describe deploying a model as a REST service at a high level.", "hint": "Container, load model once, batching, autoscaling, observability, canary.", "type": "technical", "difficulty": "Medium"},
+    {"question": "How would you debug a sudden drop in online model accuracy?", "hint": "Data drift, pipeline bug, feature nulls, traffic mix change; dashboards.", "type": "technical", "difficulty": "Hard"}
+  ],
+  "Full Stack Developer": [
+    {"question": "How do you prevent CSRF on state-changing endpoints?", "hint": "SameSite cookies, CSRF token, double-submit; avoid GET mutations.", "type": "technical", "difficulty": "Medium"},
+    {"question": "Sketch auth for a SPA calling your API.", "hint": "Short-lived access + refresh, httpOnly cookies or Bearer; rotation; CORS.", "type": "technical", "difficulty": "Medium"}
+  ],
+  "DevOps Engineer": [
+    {"question": "What signals belong on an SLO dashboard for a web API?", "hint": "Availability, latency p95/p99, error budget, saturation (CPU/latency).", "type": "technical", "difficulty": "Medium"},
+    {"question": "Blue-green vs canary — when would you pick each?", "hint": "Instant cutover vs gradual risk; DB migrations complexity.", "type": "technical", "difficulty": "Medium"}
+  ],
+  "Cybersecurity Analyst": [
+    {"question": "What steps after a phishing report from an employee?", "hint": "Isolate, preserve evidence, IOCs, reset creds, user comms, lessons.", "type": "behavioral", "difficulty": "Medium"},
+    {"question": "Explain defense in depth in one minute.", "hint": "Layers: identity, network, endpoint, data, monitoring; assume breach.", "type": "technical", "difficulty": "Easy"}
+  ],
+  "Cloud Engineer": [
+    {"question": "How do you secure secrets in cloud workloads?", "hint": "Vault/Secrets Manager, IAM roles not keys, rotation, audit, least privilege.", "type": "technical", "difficulty": "Medium"},
+    {"question": "Compare VPC peering and Transit Gateway at a high level.", "hint": "Mesh vs hub scale; routing; cost; operational complexity.", "type": "technical", "difficulty": "Hard"}
+  ],
+  "UI/UX Designer": [
+    {"question": "How do you validate a redesign before engineering builds it?", "hint": "Prototype test tasks, success metrics, accessibility check, iterative.", "type": "behavioral", "difficulty": "Medium"},
+    {"question": "What is a design system and when is it worth it?", "hint": "Components, tokens, governance; ROI at scale vs small MVPs.", "type": "technical", "difficulty": "Easy"}
+  ],
+  "Business Analyst": [
+    {"question": "How do you manage conflicting requirements from two stakeholders?", "hint": "Goals alignment, MoSCoW, data-driven tie-break, escalation path.", "type": "behavioral", "difficulty": "Medium"},
+    {"question": "Describe writing a crisp user story.", "hint": "As a… I want… So that… + acceptance criteria + edge cases.", "type": "technical", "difficulty": "Easy"}
+  ],
+  "Android Developer": [
+    {"question": "How do you avoid ANRs in Android?", "hint": "Move work off main thread, strict mode in dev, profiling, batches.", "type": "technical", "difficulty": "Medium"},
+    {"question": "Explain Jetpack Compose recomposition briefly.", "hint": "State drives UI; skippable recomposition; remember keys.", "type": "technical", "difficulty": "Medium"}
+  ],
+  "QA/Test Engineer": [
+    {"question": "How do you decide what to automate first?", "hint": "Risk, flakiness cost, stable APIs, regression-heavy paths, pyramid.", "type": "behavioral", "difficulty": "Medium"},
+    {"question": "Difference between smoke and regression suites?", "hint": "Fast critical path vs broad coverage before release.", "type": "technical", "difficulty": "Easy"}
+  ]
+}

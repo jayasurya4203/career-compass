@@ -97,3 +97,16 @@ class ProgressTracking(db.Model):
     completed_projects = db.Column(db.Text)
     readiness_score = db.Column(db.Float)
     updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+
+class QuizAttempt(db.Model):
+    __tablename__ = "quiz_attempts"
+
+    id = db.Column(db.Integer, primary_key=True)
+    student_id = db.Column(db.Integer, db.ForeignKey("students.id"), nullable=False)
+    quiz_type = db.Column(db.String(32), nullable=False)
+    score_pct = db.Column(db.Float)
+    correct = db.Column(db.Integer)
+    total = db.Column(db.Integer)
+    detail_json = db.Column(db.Text)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)

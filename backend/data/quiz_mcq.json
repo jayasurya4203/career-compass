@@ -1,0 +1,36 @@
+{
+  "reasoning": [
+    {"id": "r1", "prompt": "All roses are flowers. This plant is a rose. What must be true?", "options": ["It is a tree", "It is a flower", "It is not a flower", "Cannot tell"], "correct": 1},
+    {"id": "r2", "prompt": "Find the next number: 2, 6, 12, 20, 30, ?", "options": ["40", "42", "44", "48"], "correct": 1},
+    {"id": "r3", "prompt": "If NO students are late and SOME talks start early, which is impossible?", "options": ["A talk starts before a student arrives late", "Every student is on time", "A talk starts early", "Some students are late"], "correct": 3},
+    {"id": "r4", "prompt": "Coding : Bug :: Cooking : ?", "options": ["Recipe", "Burnt taste", "Chef", "Kitchen"], "correct": 1},
+    {"id": "r5", "prompt": "A clock shows 3:15. What is the angle between hour and minute hands (smaller angle)?", "options": ["0°", "7.5°", "90°", "82.5°"], "correct": 1},
+    {"id": "r6", "prompt": "Data : Decision :: Sensor : ?", "options": ["Noise", "Measurement", "Battery", "Wire"], "correct": 1},
+    {"id": "r7", "prompt": "In a row: A is left of B, B is left of C, D is right of C. Who can be in the middle?", "options": ["Only A", "Only B", "Only C", "B or C"], "correct": 3},
+    {"id": "r8", "prompt": "Which number does not belong: 16, 25, 36, 49, 55?", "options": ["16", "36", "49", "55"], "correct": 3},
+    {"id": "r9", "prompt": "If reversing a word spells another valid English word starting with N, which fits? (LIVE → EVIL style)", "options": ["STOP", "FLOW", "PART", "DIAPER"], "correct": 3},
+    {"id": "r10", "prompt": "All squares are rectangles. This shape is a rectangle. Therefore:", "options": ["It must be a square", "It cannot be a square", "It might or might not be a square", "It is a circle"], "correct": 2},
+    {"id": "r11", "prompt": "Series: AZ, BY, CX, DW, ?", "options": ["EU", "EV", "FV", "FU"], "correct": 1},
+    {"id": "r12", "prompt": "If today is Friday, what day was 72 days ago?", "options": ["Monday", "Tuesday", "Wednesday", "Thursday"], "correct": 1},
+    {"id": "r13", "prompt": "Odd one out by meaning: SQL, Kafka, Pivot table, Cron job", "options": ["SQL", "Kafka", "Pivot table", "Cron job"], "correct": 2},
+    {"id": "r14", "prompt": "If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets?", "options": ["1 minute", "5 minutes", "100 minutes", "20 minutes"], "correct": 1},
+    {"id": "r15", "prompt": "Negation of 'Every deployment passed tests' is closest to:", "options": ["Some deployment passed tests", "No deployment passed tests", "At least one deployment failed tests", "Tests were skipped"], "correct": 2}
+  ],
+  "technical": [
+    {"id": "t1", "category": "Algorithms", "prompt": "Average time complexity to find an item in a balanced BST of n nodes?", "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"], "correct": 1},
+    {"id": "t2", "category": "Database", "prompt": "Which SQL clause removes duplicates from result rows?", "options": ["ORDER BY", "GROUP BY", "DISTINCT", "HAVING"], "correct": 2},
+    {"id": "t3", "category": "Networking", "prompt": "HTTP 301 usually means:", "options": ["Server error", "Permanent redirect", "Unauthorized", "Rate limited"], "correct": 1},
+    {"id": "t4", "category": "OS", "prompt": "A mutex primarily prevents:", "options": ["Deadlock always", "Race conditions on shared state", "Memory leaks", "DNS failures"], "correct": 1},
+    {"id": "t5", "category": "Web", "prompt": "Which is safest against XSS when inserting user text into HTML?", "options": ["innerHTML", "eval()", "textContent", "document.write()"], "correct": 2},
+    {"id": "t6", "category": "Data", "prompt": "Primary key guarantees:", "options": ["Values can be null", "Uniqueness per row in the table", "Every column is indexed", "Foreign key to another table"], "correct": 1},
+    {"id": "t7", "category": "Python", "prompt": "What does `enumerate(iterable)` yield?", "options": ["Only values", "(index, value) pairs", "Only indices", "Sorted values"], "correct": 1},
+    {"id": "t8", "category": "Git", "prompt": "`git merge --no-ff` helps preserve:", "options": ["Only fast-forward history", "Branch topology for feature branches", "Binary files", "Remote URL"], "correct": 1},
+    {"id": "t9", "category": "Cloud", "prompt": "IAM in AWS primarily models:", "options": ["Billing alerts", "Who can do what on resources", "VPC CIDR blocks", "EC2 instance types"], "correct": 1},
+    {"id": "t10", "category": "ML", "prompt": "Overfitting typically means the model:", "options": ["Fails on training data", "Memorizes training noise, poor generalization", "Always needs more GPUs", "Cannot batch inputs"], "correct": 1},
+    {"id": "t11", "category": "Security", "prompt": "OWASP Top 10 style risk: attacker steals session cookie via XSS is mainly:", "options": ["Broken access control from XSS context", "SQL injection", "Deserialization only", "Physical theft"], "correct": 0},
+    {"id": "t12", "category": "APIs", "prompt": "Idempotent HTTP method for many safe retries:", "options": ["POST", "PATCH", "GET", "CONNECT"], "correct": 2},
+    {"id": "t13", "category": "DBMS", "prompt": "Third Normal Form aims to remove:", "options": ["Primary keys", "Transitive dependency on non-key attributes", "Foreign keys", "Indexes"], "correct": 1},
+    {"id": "t14", "category": "Docker", "prompt": "A Dockerfile `ENTRYPOINT` vs `CMD` nuance: when both exist,", "options": ["CMD replaces ENTRYPOINT always", "CMD often supplies default args to ENTRYPOINT", "Only one may exist", "ENTRYPOINT is deprecated"], "correct": 1},
+    {"id": "t15", "category": "System design", "prompt": "Caching frequently read data mainly improves:", "options": ["Write throughput only", "Latency and load on primary store", "Schema migrations", "Legal compliance"], "correct": 1}
+  ]
+}
